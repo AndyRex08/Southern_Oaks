@@ -258,7 +258,7 @@ ul {
     position: absolute;
     height: 120vh;
     width: 100%;
-    background-image: url(../Assets/construction-concept-of-engineer-and-architect-wor.jpg);
+    background-image: url(../Assets/sideViewDay.jpeg);
     filter: brightness(40%);
     background-size: cover;
     background-position: top;
@@ -1711,7 +1711,7 @@ footer {
         position: absolute;
         height: 70vh;
         width: 100%;
-        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        background-image: url(../Assets/sideViewDay.jpeg);
         filter: brightness(40%);
         background-size: cover;
         background-position: center center;
@@ -2027,7 +2027,7 @@ footer {
         height: 201px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 0px;
-        background-image: url(../Assets/modern\ apartment.jpg);
+        background-image: url(../Assets/facade-of-a-factory-building.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2096,7 +2096,7 @@ footer {
         height: 201px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 0px;
-        background-image: url(../Assets/facade-of-a-factory-building.jpg);
+        background-image: url(../Assets/modern\ apartment.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -3255,7 +3255,7 @@ footer {
         position: absolute;
         height: 70vh;
         width: 100%;
-        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        background-image: url(../Assets/sideViewDay.jpeg);
         filter: brightness(40%);
         background-size: cover;
         background-position: center center;
@@ -3559,7 +3559,7 @@ footer {
         height: 80%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 0px;
-        background-image: url(../Assets/modern\ apartment.jpg);
+        background-image: url(../Assets/facade-of-a-factory-building.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
