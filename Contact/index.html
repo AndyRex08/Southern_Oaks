@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Oaks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Assets/SouthernOaksLogo.jpg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./Assets/animations.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Font Awesome 6/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>    
+</head>
+
+<body>
+    
+    <!-- Creating the header section -->
+    <header class="header">
+
+        <!-- Top Header Row -->
+        <div class="headerIconRow">
+            <div class="icon">
+
+                <div class="facebook">
+                    <a href="tel:07040175584">
+                        <div class="facebookIcon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>0704-017-5584</p>
+                    </a>
+                </div>
+
+                <div class="mail">
+                  <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer">
+                    <div class="mailIcon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <p>southernoaks@gmail.com</p>
+                  </a>
+                </div>
+      
+                <div class="oSocials">
+                    <a href="https://www.instagram.com/southernoaks_realestate" target="_self" rel="noopener noreferrer">
+                        <div class="instagram">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                    </a>
+        
+                    <a href="https://www.facebook.com/profile.php?id=61558410431406&mibextid=LQQJ4d" target="_self" rel="noopener noreferrer">
+                        <div class="call">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Second header row -->
+        <div class="header-row">
+            <!-- Header Logo container -->
+            <div class="logo">
+                <a href="../index.html"><p><span>Southern Oaks</span><br>Nig. Ltd</p></a>
+            </div>
+            <!-- Navigation container -->
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../Our Properties/index.html" class="nav-link">Our Properties</a></li>
+                    <li><a href="../Gallery Page/index.html" class="nav-link">Gallery</a></li>
+                    <li><a href="index.html" class="nav-link active">Contact Us</a></li>
+                    <li><a href="../About Page/index.html" class="nav-link">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Hamburger container -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Creating the Hero section -->
+    <section class="hero">
+        <div class="heroSection"></div>
+        <div class="heading">
+            <p>Contact<span style="color: orangered;"><br>Info</span></p>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Fixed background property -->
+    <section class="background"></section>
+
+    <!-- Contact us Form -->
+    <section class="contactUs">
+        <div class="contact">
+            <div class="contactText">
+                <h5>Get In Touch</h5>
+                <div class="contactLine"></div>
+                <p>
+                    Have a question, need assistance, or simply want someone to chat with? We're all ears! 
+                    Whether you're looking for expert advice, personalized recommendations, or just a friendly conversation, we're here for you every step of the way. 
+                    Your satisfaction is our priority, and we can't wait to connect with you. Don't hesitate - reach out today and let's start the conversation!</p>
+            </div>
+        </div>
+        <div class="form">
+            <div class="formHead">
+                <h5>Contact Form</h5>
+            </div>
+            <input type="text" name="name_field" id="name" placeholder="Your Name">
+            <input type="email" name="email_field" id="email" placeholder="Your Email">
+            <input type="submit" value="SUBMIT">
+        </div>
+    </section>
+
+    <!-- Designing the Photo Section-->
+    <section class="photoSection">
+      <div class="photoRow">
+        <div class="photoDiv"></div>
+        <div class="photoText">
+          <div class="text">
+            <h3><span style="font-size: 40px; color: orangered;">Find Us In</span><br>the Real World</h3>
+            <div class="textLine"></div>
+            <div class="numbersss" style="margin-top: 40px;">
+                <a href="">
+                    <i class="fa-solid fa-location"></i>
+                    <p>1A Lumsar Street, Wuse Zone 4, Abuja</p>
+                </a>
+            </div>
+            <div class="numbersss">
+                <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>inquire@southernoaks.com.ng</p>
+                </a>
+            </div>
+            <div class="numbersss">
+                <a href="tel:07040175584" target="_self" rel="noopener noreferrer">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0704-017-5584</p>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="photoRow2">
+        <div class="photoText2">
+          <div class="text2">
+            <h3><span style="font-size: 40px; color: orangered;">Follow</span><br> Us on Socials</h3>
+            <div class="textLine"></div>
+            <div class="socialss">
+                <div class="faces">
+                    <a href="https://www.facebook.com/profile.php?id=61558410431406&mibextid=LQQJ4d" class="">
+                        <div class="facebookIconI">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insta">
+                    <a href="https://www.instagram.com/southernoaks_realestate">
+                        <div class="instagramIconI">
+                        <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="twitter">
+                   <a href="">
+                        <div class="twitterIconI">
+                        <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="photoDiv2"></div>
+      </div>
+    </section>
+
+    <!-- Designing the Map Location Section -->
+    <section id="map">
+    </section>
+
+    <!-- Designing the Contact Section -->
+    <section class="contactHeader">
+        <div class="contactHeaderRow">
+            <h5><span style="color: orangered; font-size: 30px;">Southern Oaks</span><br />Nigeria. Ltd</h5>
+        </div>
+        <div class="contactBodyRow">
+            <div class="contactBodyColumn">
+                <h5>Contact Info</h5>
+                <div class="number">
+                    <a href="tel:07040175584" target="_self" rel="noopener noreferrer">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0704-017-5584</p>
+                    </a>
+                </div>
+                <div class="email">
+                    <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>inquire@southernoaks.com.ng</p>
+                    </a>
+                </div>
+                <div class="location">
+                    <a href="#map">
+                        <i class="fa-solid fa-location"></i>
+                        <p>1A Lumsar Street, Wuse Zone 4, Abuja</p>
+                    </a>
+                </div>
+            </div>
+            <div class="contactBodyColumns">
+                <h5>Quick Links</h5>
+                <div class="number">
+                    <a href="../index.html" target="_self">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="number">
+                    <a href="../Our Properties/index.html" target="_self">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <p>Our Properties</p>
+                    </a>
+                </div>
+                <div class="number">
+                    <a href="index.html" target="_self">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <p>Contact Us</p>
+                    </a>
+                </div>
+                <div class="number">
+                    <a href="../About Page/index.html" target="_self">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <p>About</p>
+                    </a>
+                </div>
+            </div>
+            <div class="contactBodyColumnss">
+                <h5>Subscribe To Our Newsletter</h5>
+                <div class="numberrs">
+                    <form action="process_newsletter.php" method="post">
+                        <input type="email" name="email_field" id="email" placeholder="Your Email" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Please enter a valid Gmail address">
+                        <input type="submit" value="SUBMIT" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Designing the Footer Section -->
+    <footer>
+    <div class="footerRow">
+        <div class="copyright">
+            <p>Copyright © 2024 Southern Oaks Nig. Limited</p>
+        </div>
+        <div class="BTT">
+          <a href="#" id="back-to-top"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+        <div class="socials">
+            <div class="phone">
+                <a href="tel:08068251438" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            
+            <div class="mails">
+                <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+  
+            <div class="calls">
+                <a href="https://www.facebook.com/profile.php?id=61558410431406&mibextid=LQQJ4d" target="_self" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+
+            <div class="instagrams">
+                <a href="https://www.instagram.com/southernoaks_realestate" target="_self" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

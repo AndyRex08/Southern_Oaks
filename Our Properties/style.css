@@ -1,0 +1,4501 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 120vh;
+}
+
+
+/* Styling the Header section */
+.header {
+    height: auto;
+    align-content: center;
+    
+}
+
+.headerIconRow {
+    height: 50px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.facebook {
+    width: 12vw;
+    height: 30px;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.facebookIcon {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    border-color: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.facebook a{
+    width: 10vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.facebook i{
+    font-size: 12px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook p{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.facebook:hover a, .facebook:hover p{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.mail {
+    width: 15vw;
+    height: 30px;
+    align-items: center;
+}
+
+.mailIcon {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mail a{
+    width: 14vw;
+    height: 30px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.mail i{
+    font-size: 12px;
+    margin-left: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail p{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.mail:hover a, .mail:hover p{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.oSocials {
+    height: 40px;
+    margin-left: 50vw;
+    display: flex;
+    align-content: center;
+}
+
+.instagram {
+    height: 40px;
+    width: 30px;
+    align-content: center;
+    border-right: 1px solid black;
+}
+
+.instagram i{
+    height: 30px;
+    width: 30px;
+    align-content: center;
+    margin-left: 9px;
+    color: white;
+}
+
+.instagram:hover i{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.2s;
+}
+
+.call {
+    margin-left: 10px;
+    height: 40px;
+    width: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.call i{
+    height: 30px;
+    width: 30px;
+    align-content: center;
+    margin-left: 7px;
+    color: white;
+}
+
+.call:hover i{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.2s;
+}
+
+.header-row {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(31, 27, 27);
+    align-content: center;
+
+}
+
+.logo {
+    margin-left: 10vw;
+    width: 20vw;
+    align-content: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo p{
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.logo a:hover{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.nav {
+    width: 45vw;
+    align-content: center;
+    margin-left: 20vw;
+}
+
+ul {
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav li {
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.nav li a.active{
+    color: orangered;
+}
+
+.nav-link:hover {
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    align-content: center;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+
+/* Styling the Hero Section */
+.hero {
+    height: 90vh;
+    display: block;
+}
+
+.heroSection {
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../Assets/construction-concept-of-engineer-and-architect-wor.jpg);
+    filter: brightness(40%);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.heading {
+    margin-left: 10vw;
+    width: 42vw;
+}
+
+.heading p{
+    font-family: "Antonio", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 25vh;
+}
+
+.line {
+    height: 7px;
+    width: 13vw;
+    margin-left: 0vw;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Background Section Styling */
+.background {
+    height: 65vh;
+    background-attachment: fixed;
+    background-image: url(/Assets/dark-abstract-backgrounds-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+
+/* Styling the Contact Section */
+.contactUs {
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-top: -81vh;
+    filter: brightness(0.9);
+}
+
+.contact {
+    margin-top: 20vh;
+    height: 45vh;
+    width: 50%;
+}
+
+.contactText {
+    margin-top: 8vh;
+}
+
+.contactText h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+.contactLine {
+    height: 7px;
+    width: 6.3vw;
+    margin-top: 20px;
+    background-color: orangered;
+}
+
+.contactText p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 30px;
+    color: white;
+    width: 80%;
+}
+
+.form {
+    width: 50%;
+    background-color: orangered;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHead {
+    display: flex;
+    width: 18vw;
+    margin-top: 12vh;
+    margin-left: 3.5vw;
+    align-items: center;
+}
+
+.form i{
+    color: white;
+    font-size: 70px;
+}
+
+.formHeadText {
+    margin-left: 20px;
+}
+
+.formHeadText p{
+    font-family: "Antonio", sans-serif;
+    font-size: 20px;
+}
+
+.form h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form input{
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin: 3vh auto 0 auto;
+}
+
+.form input[type="text"]{
+    padding-left: 15px;
+    margin-top: 5vh;
+    border: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.form input[type="email"]{
+    padding-left: 15px;
+    border: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.form input[type="submit"]{
+    width: 83%;
+    padding-left: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: "Antonio", sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    color: orangered;
+    background-color: rgb(31, 27, 27);
+}
+
+.form input[type="submit"]:hover{
+    background-color: rgb(220, 59, 0);
+    color: black;
+    transition: color 0.2s ease-in-out 0.1s;
+    transition: background-color 0.2s ease-in-out 0.1s;
+}
+
+/* Designing the Services Section */
+.services {
+    height: 150vh;
+    width: 100%;
+    margin-top: 11vh;
+}
+
+.servicesBackground {
+    height: 150vh;
+    width: 100%;
+    background-image: url(../Assets/modern-office-building-facade.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%) saturate(0);
+    align-content: center;
+}
+
+.servicesRow {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    margin: -67% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hotels {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.hotelsImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/topViewDay.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.hotelsImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.hotelsText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.hotelsTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.hotelsTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.hotelsTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.hotelsTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Antonio", sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: orangered;
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.mixed {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.mixedImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/facade-of-a-factory-building.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.mixedImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.mixedText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.mixedTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.mixedTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.mixedTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.mixedTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.multi {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.multiImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/modern\ apartment.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.multiImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.multiText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.multiTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.multiTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.multiTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.multiTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.office {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.officeImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/modern-building-with-windows.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.officeImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.officeText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.officeTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.officeTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.officeTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.officeTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.commercial {
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+}
+
+.commercialRow {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.commercialText {
+    width: 50%;
+    height: 100%;
+}
+
+.commercialTexts {
+    height: 100%;
+    width: 80%;
+    border-left: 1px solid black;
+    margin-left: 20%;
+    align-content: center;
+}
+
+.commercialTexts h3{
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+}
+
+.commercialTexts h6{
+    margin-top: 20px;
+    color: orangered;
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+.commercialTexts p{
+    font-size: 14px;
+    width: 85%;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.commercialImage {
+    width: 50%;
+    height: 100%;
+    background-image: url(../Assets/portrait-of-confident-businessmen-standing-against.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.commercialImage:hover {
+    filter: brightness(85%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+
+.servicess {
+    height: 150vh;
+    width: 100%;
+}
+
+.servicessBackground {
+    height: 150vh;
+    width: 100%;
+    background-image: url(../Assets/modern-building-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%) saturate(0);
+    align-content: center;
+}
+
+.servicessRow {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    margin: -67% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.retail {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.retailImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/escalator-in-modern-shopping-mall-shopping-centre.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.retailImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.retailText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.retailTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.retailTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.retailTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.retailTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.entertainment {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.entertainmentImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/exterior-of-a-greek-resort.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.entertainmentImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.entertainmentText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.entertainmentTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.entertainmentTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.entertainmentTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.entertainmentTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.sports {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.sportsImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/rows-of-yellow-and-blue-stadium-seats-on-soccer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.sportsImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.sportsText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.sportsTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.sportsTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.sportsTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.sportsTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+.special {
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 2px;
+    flex-basis: 48%;
+    display: flex;
+}
+
+.specialImage {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../Assets/warehouse-for-parcels-and-loads.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%) saturate(0);
+}
+
+.specialImage:hover {
+    filter: brightness(100%);
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.specialText {
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+}
+
+.specialTextDiv {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.specialTextDiv i{
+    font-size: 40px; 
+    color: orangered;
+}
+
+.specialTextDiv h3{
+    margin-top: 20px;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Antonio", sans-serif;
+}
+
+.specialTextDiv p{
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* Designing the Footer Contact Section */
+.contactHeader {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(31, 27, 27);
+}
+
+.contactHeaderRow {
+    height: 20vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    align-items: center;
+    align-content: center;
+}
+
+.contactHeaderRow h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 43px;
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactBodyRow {
+    height: 29vh;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.contactBodyColumn {
+    height: 29vh;
+    width: 33.3%;
+}
+
+.contactBodyColumn h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: orangered; 
+}
+
+.number {
+    margin-top: 20px;
+}
+
+.number a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.number a:hover {
+    color: orangered;
+    transition: color 0.3s ease-in-out 0.1s;
+    margin-left: 40px;
+    transition: margin-left 0.3s ease-in-out 0.1s;
+
+}
+
+.number i{
+    font-size: 14px;
+}
+
+.number p{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-family: "Antonio", sans-serif;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.email a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    width: 57%;
+    align-content: center;
+}
+
+.email a:hover {
+    color: orangered;
+    transition: color 0.3s ease-in-out 0.1s;
+    margin-left: 40px;
+    transition: margin-left 0.3s ease-in-out 0.1s;
+
+}
+
+.email i{
+    font-size: 14px;
+}
+
+.email p{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-family: "Antonio", sans-serif;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.location a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    width: 90%;
+    align-content: center;
+}
+
+.location a:hover {
+    color: orangered;
+    transition: color 0.3s ease-in-out 0.1s;
+    margin-left: 40px;
+    transition: margin-left 0.3s ease-in-out 0.1s;
+
+}
+
+.location i{
+    font-size: 14px;
+}
+
+.location p{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-family: "Antonio", sans-serif;
+}
+
+.contactBodyColumns {
+    height: 29vh;
+    width: 33.3%;
+}
+
+.contactBodyColumns h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: orangered; 
+}
+
+.nummbers {
+    margin-top: 20px;
+}
+
+.nummbers a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 40%;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.nummbers a:hover {
+    color: orangered;
+    transition: color 0.3s ease-in-out 0.1s;
+    margin-left: 40px;
+    transition: margin-left 0.3s ease-in-out 0.1s;
+
+}
+
+.nummbers i{
+    font-size: 14px;
+}
+
+.nummbers p{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-family: "Antonio", sans-serif;
+}
+
+.numberrs {
+    display: flex;
+}
+
+.numberrs input[type="email"]{
+    padding-left: 15px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 55%;
+    height: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.numberrs input[type="submit"]{
+    width: 45%;
+    padding-left: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: "Antonio", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    border-bottom-right-radius: 7px;
+    color: black;
+    background-color: orangered;
+}
+
+.numberrs input[type="submit"]:hover{
+    background-color: rgb(220, 59, 0);
+    color: black;
+    transition: color 0.2s ease-in-out 0.1s;
+    transition: background-color 0.2s ease-in-out 0.1s;
+}
+
+
+/* Designing the Footer Section */
+footer {
+    height: 60px;
+    width: 100%;
+    align-content: center;
+    background-color: black;
+}
+
+.footerRow {
+    display: flex;
+    height: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    width: 40%;
+    color: white;
+}
+
+.copyright p{
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+}
+
+.BTT {
+    width: 4%;
+    height: 30px;
+    margin-left: 6%;
+}
+
+.BTT a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.BTT a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+.socials {
+    display: flex;
+    margin-left: 36%;
+    width: 14%;
+    height: 30px;
+    align-items: center;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.phone {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.phone i{
+    font-size: 14px;
+}
+
+.phone a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+.mails {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.mails i{
+    font-size: 14px;
+}
+
+.mails a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+.linkedins {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.linkedins i{
+    font-size: 14px;
+}
+
+.linkedins a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+.instagrams {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.instagrams i{
+    font-size: 14px;
+}
+
+.instagrams a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+.calls {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.calls i{
+    font-size: 14px;
+}
+
+.calls a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+
+
+@media (min-width: 10px) and (max-width: 767px) {
+    * {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        height: auto;
+        overflow-x: hidden;
+    }
+    
+    
+    /* Styling the Header section */
+    .header {
+        height: auto;
+        align-content: center;
+        
+    }
+    
+    .headerIconRow {
+        height: 40px;
+        width: 100%;
+    }
+    
+    .icon {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    
+    .icon a{
+        text-decoration: none;
+        color: black;
+        align-content: center;
+    }
+    
+    
+    .facebook {
+        width: 6vw;
+        height: 30px;
+        margin-left: 57vw;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .facebookIcon {
+        height: 22px;
+        width: 21px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .facebook a{
+        width: 22px;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .facebook i{
+        font-size: 15px;
+        color: black;
+        margin-top: 2.5px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .facebook p{
+        display: none;
+    }
+    
+    .facebook:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .mail {
+        width: 8vw;
+        height: 30px;
+        margin-left: 10px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mail a{
+        margin-left: 0px;
+        width: 40px;
+    }
+    
+    .mailIcon {
+        height: 22px;
+        width: 22px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .mailIcon a{
+        width: 20vw;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .mailIcon i{
+        font-size: 15px;
+        color: black;
+        margin-top: 3px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .mail p{
+        display: none;
+    }
+    
+    .mail:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .oSocials {
+        align-content: center;
+        display: flex;
+        margin-top: -2px;
+        margin-left: 0px;
+        width: 20vw;
+        height: 40px;
+    }
+
+    .oSocials a{
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+
+    .instagram {
+        margin-left: 0px;
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+    
+    .instagram i{
+        font-size: 18px;
+        margin-top: 3px;
+        align-content: center;
+        color: white;
+    }
+    
+    .instagram:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .call {
+        margin-left: -0px;
+        height: 40px;
+        width: 40px; 
+    }
+    
+    .call i{
+        margin-top: 3px;
+        font-size: 18px;
+        align-content: center;
+        color: white;
+    }
+    
+    .call:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+     .header-row {
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(31, 27, 27);
+        align-content: center;
+    
+    }
+    
+    .logo {
+        margin-left: 5vw;
+        width: 50%;
+        align-content: center;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo p{
+        width: 40vw;
+        font-size: 18px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+    }
+    
+    .logo a:hover{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+
+    .nav {
+        position: fixed;
+        right: -115vw;
+        top: 118px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(31, 27, 27);
+        width: 52vw;
+        height: 37vh;
+        justify-content: center;
+        transition: 0.3s;
+        padding: 0;
+    }
+
+    .nav ul{
+        margin: 10px 0;
+        display: block;
+        align-content: center;
+    }
+
+    .nav a{
+        color: white;
+    }
+    
+    .nav li{
+        padding: 10px 0;
+    }
+    
+    .nav li:hover {
+        background-color: none;
+        border-radius: 5px;
+        color: burlywood;
+    }
+
+    .nav.active {
+        right: 1vw;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 28vw;
+    }
+
+    .hamburger.active {
+        margin-left: 28vw;
+        transition: all 0.4s ease-in-out 0.2s;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+        
+    /* Styling the Hero Section */
+    .hero {
+        height: 70vh;
+        display: block;
+    }
+
+    .heroSection {
+        position: absolute;
+        height: 70vh;
+        width: 100%;
+        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        filter: brightness(40%);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .heading {
+        margin-left: 5vw;
+        width: 70vw;
+        height: 60vh;
+    }
+
+    .heading p{
+        font-family: "Antonio", sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 140px;
+        height: 100px;
+    }
+
+    .line {
+        height: 7px;
+        width: 100px;
+        margin-left: 0vw;
+        margin-top: 0px;
+        background-color: white;
+    }
+
+    .catchPhrase {
+        display: none;
+        color: orangered;
+        margin-left: 10vw;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .catchPhrase p{
+        font-family: "Antonio", sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+    }
+
+    /* Background Section Styling */
+    .background {
+        height: 120vh;
+        background-attachment: scroll;
+        background-image: url(/Assets/dark-abstract-backgrounds-02.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(40%);
+    }
+
+
+    /* Styling the Contact Section */
+    .contactUs {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        margin: -130vh auto 0 auto;
+    }
+    
+    .contact {
+        margin-top: 0vh;
+        height: 60vh;
+        width: 100%;
+        order: 2;
+    }
+    
+    .contactText {
+        margin-top: 10vh;
+        text-align: left;
+    }
+    
+    .contactText h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: orangered;
+    }
+    
+    .contactLine {
+        height: 5px;
+        width: 19vw;
+        margin: 10px auto 0px 0px;
+        background-color: orangered;
+    }
+    
+    .contactText p{
+        font-size: 12px;
+        font-family: "Merienda", cursive;
+        margin: 30px auto 0px auto;
+        color: white;
+        width: 100%;
+    }
+    
+    .form {
+        height: 70vh;
+        width: 100%;
+        background-color: orangered;
+        border-radius: 5px;
+        order: 1;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formHead {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin: 50px auto 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formHead i{
+    color: white;
+    font-size: 70px;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+    }
+    
+    .form h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 35px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .form input{
+        display: block;
+        width: 80%;
+        height: 60px;
+        margin: 3vh auto 0 auto;
+    }
+    
+    .form input[type="text"]{
+        padding-left: 15px;
+        margin-top: 5vh;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="email"]{
+        padding-left: 15px;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="submit"]{
+        width: 83%;
+        padding-left: 15px;
+        border: none;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+        cursor: pointer;
+        border-radius: 7px;
+        color: orangered;
+        background-color: rgb(31, 27, 27);
+    }
+    
+    .form input[type="submit"]:hover{
+        background-color: rgb(220, 59, 0);
+        color: black;
+        transition: color 0.2s ease-in-out 0.1s;
+        transition: background-color 0.2s ease-in-out 0.1s;
+    }
+
+
+    /* Designing the Services Section */
+    .services {
+        height: 270vh;
+        width: 100%;
+        margin-top: -2px;
+    }
+    
+    .servicesBackground {
+        height: 270vh;
+        width: 100%;
+        background-image: url(../Assets/modern-office-building-facade.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(20%) saturate(0);
+        align-content: center;
+    }
+    
+    .servicesRow {
+        height: 260vh;
+        width: 100%;
+        position: relative;
+        margin: -260vh auto 0 auto;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hotel {
+        order: 1;
+    }
+    
+    .hotels {
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 0px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .hotelsImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/topViewDay.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .hotelsImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+    
+    .hotelsText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .hotelsTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .hotelsTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .hotelsTextDiv h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .hotelsTextDiv p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    button {
+        background-color: orangered;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    button:hover {
+        background-color: black;
+        color: orangered;
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .mixed {
+        order: 2;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 0px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .mixedImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/modern\ apartment.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .mixedImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    
+    .mixedText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .mixedTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .mixedTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .mixedText h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .mixedText p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .multi {
+        order: 3;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 0px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .multiImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/facade-of-a-factory-building.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .multiImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    
+    .multiText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .multiTextDiv {
+        width: 70%;
+        height: 95%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .multiTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .multiText h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .multiText p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .office {
+        order: 4;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 0px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .officeImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/modern-building-with-windows.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+
+    
+    .officeText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .officeTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .officeTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .officeText h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .officeText p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .officeImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .commercial {
+        height: 80vh;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .commercialRow {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    .commercialText {
+        order: 2;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .commercialTexts {
+        height: 100%;
+        width: 90%;
+        border-left: 1px solid black;
+        margin: 0px 5% 0px 5%;
+        align-content: center;
+        text-align: left;
+    }
+    
+    .commercialTexts h3{
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 23px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .commercialTexts h6{
+        margin-top: 10px;
+        color: orangered;
+        font-size: 16px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .commercialTexts p{
+        font-size: 12px;
+        width: 100%;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .commercialImage {
+        order: 1;
+        width: 100%;
+        height: 75vh;
+        background-image: url(../Assets/portrait-of-confident-businessmen-standing-against.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(50%);
+    }
+    
+    .commercialImage:hover {
+        filter: brightness(75%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .servicess {
+        height: 270vh;
+        width: 100%;
+        margin-top: -2px;
+    }
+    
+    .servicessBackground {
+        height: 270vh;
+        width: 100%;
+        background-image: url(../Assets/modern-building-background.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(20%) saturate(0);
+        align-content: center;
+    }
+
+    .servicessRow {
+        height: 260vh;
+        width: 100%;
+        position: relative;
+        margin: -260vh auto 0 auto;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .retail {
+        order: 2;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 10px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .retailImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/escalator-in-modern-shopping-mall-shopping-centre.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .retailImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .retailText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .retailTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .retailTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .retailTextDiv h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .retailTextDiv p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .entertainment {
+        order: 2;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 10px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .entertainmentImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/exterior-of-a-greek-resort.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .entertainmentImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .entertainmentText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .entertainmentTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .entertainmentTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .entertainmentTextDiv h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .entertainmentTextDiv p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .sports {
+        order: 3;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 10px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .sportsImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/rows-of-yellow-and-blue-stadium-seats-on-soccer.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .sportImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .sportsText {
+        order: 2;
+        width: 100%;
+        height: 315px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .sportsTextDiv {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .sportsTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .sportsTextDiv h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .sportsTextDiv p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .special {
+        order: 3;
+        height: 521px;
+        width: 90%;
+        border-radius: 10px;
+        flex-basis: initial;
+        margin: 10px 5% 0px 5%;
+        flex-direction: column;
+    }
+    
+    .specialImage {
+        order: 1;
+        width: 100%;
+        height: 201px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/warehouse-for-parcels-and-loads.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .specialImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .specialText {
+        order: 2;
+        width: 100%;
+        height: 311px;
+        box-sizing: border-box;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .specialTextDiv {
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .specialTextDiv i{
+        font-size: 35px; 
+        color: orangered;
+    }
+    
+    .specialTextDiv h3{
+        margin-top: 10px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .specialTextDiv p{
+        font-size: 14px;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    /* Styling the Contact Header Section */
+    .contactHeader {
+        height: 110vh;
+        width: 100%;
+        background-color: rgb(31, 27, 27);
+    }
+
+    .contactHeaderRow {
+        height: 20vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0%;
+        align-items: center;
+        align-content: center;
+    }
+
+    .contactHeaderRow h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 38px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactBodyRow {
+        height: 90vh;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .contactBodyColumn {
+        height: 32vh;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contactBodyColumn h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+    
+    .number {
+        margin-top: 20px;
+    }
+    
+    .number a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    .number a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+    }
+    
+    .number i{
+        font-size: 14px;
+        width: 20px;
+    }
+    
+    .number p{
+        height: 20px;
+        margin-top: -3px;
+        font-size: 14px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .email {
+        margin-top: 10px;
+    }
+    
+    .email a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    .email a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+    
+    }
+    
+    .email i{
+        font-size: 14px;
+        width: 20px;
+    }
+    
+    .email p{
+        height: 20px;
+        margin-top: -3px;
+        font-size: 14px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .location {
+        margin-top: 10px;
+    }
+    
+    .location a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    .location a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+    }
+    
+    .location i{
+        font-size: 14px;
+        width: 20px;
+    }
+    
+    .location p{
+        margin-left: 17px;
+        height: 20px;
+        margin-top: -3px;
+        font-size: 14px;
+        font-family: "Antonio", sans-serif;
+    }
+
+    .numbers, .nummbers {
+        margin-top: 10px;
+    }
+    
+    .numbers a, .nummbers a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        height: 20px;
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+    
+    .numbers a:hover, .nummbers a:hover{
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+    }
+    
+    .numbers i, .nummbers i{
+        font-size: 14px;
+        width: 20px;
+    }
+    
+    .numbers p, .nummbers p{
+        margin-left: 20px;
+        height: 20px;
+        margin-top: -3px;
+        font-size: 14px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .numberrs {
+        display: flex;
+    }
+    
+    .contactBodyColumns {
+        height: 33vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 0vh;
+    }
+    
+    .contactBodyColumns h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+    
+    .contactBodyColumns .number {
+        margin-top: 10px;
+    }
+    
+    .contactBodyColumnss {
+        height: 25vh;
+        width: 100%;
+        text-align: center;
+        margin-top: -10vh;
+    }
+    
+    .contactBodyColumnss h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+    
+    form {
+        display: flex;
+    }
+    
+    .numberrs input[type="email"]{
+        padding-left: 15px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 55%;
+        height: 40px;
+        font-weight: 300;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .numberrs input[type="submit"]{
+        width: 45%;
+        padding-left: 15px;
+        border: none;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+        cursor: pointer;
+        margin-top: 20px;
+        border-bottom-right-radius: 7px;
+        color: black;
+        background-color: orangered;
+    }
+    
+    .numberrs input[type="submit"]:hover{
+        background-color: rgb(220, 59, 0);
+        color: black;
+        transition: color 0.2s ease-in-out 0.1s;
+        transition: background-color 0.2s ease-in-out 0.1s;
+    }
+    
+    /* Designing the Footer Section */
+    footer {
+        height: 110px;
+        width: 100%;
+        align-content: center;
+        background-color: black;
+    }
+    
+    .footerRow {
+        flex-direction: column;
+        height: 110px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .copyright {
+        order: 1;
+        width: 100%;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .copyright p{
+        text-align: center;
+        font-size: 14px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .BTT {
+        order: 2;
+        width: 100%;
+        height: 30px;
+        margin: 20px auto 0px auto;
+    }
+    
+    .BTT a{
+        margin: 0px auto;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        width: 15px;
+        font-size: 14px;
+        font-family: "Oswald", sans-serif;
+        color: white;
+    }
+    
+    .BTT a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .socials {
+        order: 3;
+        display: flex;
+        margin: 0px auto;
+        width: 110px;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .socials a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .phone {
+        margin-left: 0px;
+        height: 20px;
+        width: 30px;
+    }
+    
+    .phone a{
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .phone i{
+        font-size: 15px;
+        align-content: center;
+    }
+    
+    .phone a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .mails {
+        margin-left: 0px;
+        height: 20px;
+        width: 30px;
+    }
+    
+    .mails i{
+        font-size: 14px;
+    }
+    
+    .mails a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .instagrams {
+        margin-left: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .instagrams i{
+        font-size: 14px;
+    }
+    
+    .instagrams a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .calls {
+        margin-left: 0px;
+        height: 20px;
+        width: 30px;
+    }
+    
+    .calls i{
+        font-size: 14px;
+    }
+    
+    .calls a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1300px) {
+    * {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        height: auto;
+        overflow-x: hidden;
+    }
+    
+    
+    /* Styling the Header section */
+    .header {
+        height: auto;
+        align-content: center;
+        
+    }
+    
+    .headerIconRow {
+        height: 40px;
+        width: 100%;
+    }
+    
+    .icon {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    
+    .icon a{
+        text-decoration: none;
+        color: black;
+        align-content: center;
+    }
+    
+    
+    .facebook {
+        width: 5vw;
+        height: 30px;
+        margin-left: 67.5vw;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .facebookIcon {
+        height: 22px;
+        width: 21px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .facebook a{
+        width: 22px;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .facebook i{
+        font-size: 15px;
+        color: black;
+        margin-top: 2.5px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .facebook p{
+        display: none;
+    }
+    
+    .facebook:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .mail {
+        width: 4vw;
+        height: 30px;
+        margin-left: 0px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mail a{
+        margin-left: 0px;
+        width: 40px;
+    }
+    
+    .mailIcon {
+        height: 22px;
+        width: 22px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .mailIcon a{
+        width: 20vw;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .mailIcon i{
+        font-size: 15px;
+        color: black;
+        margin-top: 3px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .mail p{
+        display: none;
+    }
+    
+    .mail:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .oSocials {
+        align-content: center;
+        display: flex;
+        margin-top: -2px;
+        margin-left: 0px;
+        width: 20vw;
+        height: 40px;
+    }
+
+    .oSocials a{
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+
+    .instagram {
+        margin-left: 0px;
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+    
+    .instagram i{
+        font-size: 18px;
+        margin-top: 3px;
+        align-content: center;
+        color: white;
+    }
+    
+    .instagram:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .call {
+        margin-left: -0px;
+        height: 40px;
+        width: 40px; 
+    }
+    
+    .call i{
+        margin-top: 3px;
+        font-size: 18px;
+        align-content: center;
+        color: white;
+    }
+    
+    .call:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+     .header-row {
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(31, 27, 27);
+        align-content: center;
+    
+    }
+    
+    .logo {
+        margin-left: 5vw;
+        width: 50%;
+        align-content: center;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo p{
+        width: 40vw;
+        font-size: 18px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+    }
+    
+    .logo a:hover{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+
+    .nav {
+        position: fixed;
+        right: -115vw;
+        top: 118px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(31, 27, 27);
+        width: 52vw;
+        height: 37vh;
+        justify-content: center;
+        transition: 0.3s;
+        padding: 0;
+    }
+
+    .nav ul{
+        margin: 10px 0;
+        display: block;
+        align-content: center;
+    }
+
+    .nav a{
+        color: white;
+    }
+    
+    .nav li{
+        padding: 10px 0;
+    }
+    
+    .nav li:hover {
+        background-color: none;
+        border-radius: 5px;
+        color: burlywood;
+    }
+
+    .nav.active {
+        right: 1vw;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 28vw;
+    }
+
+    .hamburger.active {
+        margin-left: 28vw;
+        transition: all 0.4s ease-in-out 0.2s;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    /* Styling the Hero Section */
+    .hero {
+        height: 70vh;
+        display: block;
+    }
+
+    .heroSection {
+        position: absolute;
+        height: 70vh;
+        width: 100%;
+        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        filter: brightness(40%);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .heading {
+        margin-left: 5vw;
+        width: 50vw;
+        height: 65vh;
+    }
+
+    .heading p{
+        font-family: "Antonio", sans-serif;
+        font-weight: 500;
+        font-size: 65px;
+        line-height: 70px;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 90px;
+        height: 150px;
+    }
+
+    .line {
+        height: 7px;
+        width: 100px;
+        margin-left: 0vw;
+        margin-top: 0px;
+        background-color: white;
+    }
+
+    .catchPhrase {
+        display: none;
+        color: orangered;
+        margin-left: 10vw;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .catchPhrase p{
+        font-family: "Antonio", sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+    }
+
+        /* Background Section Styling */
+    .background {
+        height: 120vh;
+        background-attachment: scroll;
+        background-image: url(/Assets/dark-abstract-backgrounds-02.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(40%);
+    }
+
+    /* Styling the Contact Section */
+    .contactUs {
+        height: auto;
+        width: 90%;
+        display: flex;
+        margin: -130vh auto 0 auto;
+    }
+    
+    .contact {
+        margin-top: 10vh;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .contactText {
+        margin-top: 10vh;
+        text-align: left;
+        width: 90%;
+    }
+    
+    .contactText h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: orangered;
+    }
+    
+    .contactLine {
+        height: 5px;
+        width: 19vw;
+        margin: 10px auto 0px 0px;
+        background-color: orangered;
+    }
+    
+    .contactText p{
+        font-size: 12px;
+        font-family: "Merienda", cursive;
+        margin: 30px auto 0px auto;
+        color: white;
+        width: 100%;
+    }
+    
+    .form {
+        height: 60vh;
+        width: 100%;
+        background-color: orangered;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formHead {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin: 30px auto 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formHead i{
+        color: white;
+        font-size: 70px;
+        height: 90px;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .form h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 35px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .form input{
+        display: block;
+        width: 80%;
+        height: 60px;
+        margin: 3vh auto 0 auto;
+    }
+    
+    .form input[type="text"]{
+        padding-left: 15px;
+        margin-top: 5vh;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="email"]{
+        padding-left: 15px;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="submit"]{
+        width: 83%;
+        padding-left: 15px;
+        border: none;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+        cursor: pointer;
+        border-radius: 7px;
+        color: orangered;
+        background-color: rgb(31, 27, 27);
+    }
+    
+    .form input[type="submit"]:hover{
+        background-color: rgb(220, 59, 0);
+        color: black;
+        transition: color 0.2s ease-in-out 0.1s;
+        transition: background-color 0.2s ease-in-out 0.1s;
+    }
+        
+
+    /* Designing the Services Section */
+    .services {
+        height: 150vh;
+        width: 100%;
+        margin-top: 11vh;
+    }
+
+    .servicesBackground {
+        height: 150vh;
+        width: 100%;
+        background-image: url(../Assets/modern-office-building-facade.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(30%) saturate(0);
+        align-content: center;
+    }
+
+    .servicesRow {
+        height: 80%;
+        width: 80%;
+        position: relative;
+        margin: -130vh auto 0 auto;
+        gap: 40px;
+    }
+
+    .hotels {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+
+    .hotelsImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/topViewDay.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+
+    .hotelsImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .hotelsText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+
+    .hotelsTextDiv {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+
+    .hotelsTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+
+    .hotelsTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+
+    .hotelsTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+
+    button {
+        background-color: orangered;
+        border: none;
+        border-radius: 3px;
+        margin-top: 10px;
+        height: 35px;
+        width: 100px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+    }
+
+    button:hover {
+        background-color: black;
+        color: orangered;
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .mixed {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+
+    .mixedImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/modern\ apartment.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+
+    .mixedImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .mixedText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+
+    .mixedTextDiv {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+
+    .mixedTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+
+    .mixedTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+
+    .mixedTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+
+    .multi {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+    
+    .multiImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/modern\ apartment.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .multiImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+    
+    .multiText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .multiTextDiv {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .multiTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+    
+    .multiTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .multiTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+    
+    .office {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+    
+    .officeImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/modern-building-with-windows.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .officeImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+    
+    .officeText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .officeTextDiv {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .officeTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+    
+    .officeTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .officeTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+    
+    .commercial {
+        height: 70vh;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .commercialRow {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .commercialText {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .commercialTexts {
+        height: 100%;
+        width: 90%;
+        border-left: 1px solid black;
+        margin: 0px 5% 0px 5%;
+        align-content: center;
+        text-align: left;
+    }
+    
+    .commercialTexts h3{
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 23px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .commercialTexts h6{
+        margin-top: 10px;
+        color: orangered;
+        font-size: 16px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .commercialTexts p{
+        font-size: 12px;
+        width: 100%;
+        font-family: "Merienda", cursive;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .commercialImage {
+        width: 100%;
+        height: 70vh;
+        background-image: url(../Assets/portrait-of-confident-businessmen-standing-against.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(50%);
+    }
+    
+    .commercialImage:hover {
+        filter: brightness(75%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .servicess {
+        height: 150vh;
+        width: 100%;
+    }
+
+    .servicessBackground {
+        height: 150vh;
+        width: 100%;
+        background-image: url(../Assets/modern-office-building-facade.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(30%) saturate(0);
+        align-content: center;
+    }
+
+    .servicessRow {
+        height: 80%;
+        width: 80%;
+        position: relative;
+        margin: -130vh auto 0 auto;
+        gap: 40px;
+    }
+
+    .retail {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+
+    .retailImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/escalator-in-modern-shopping-mall-shopping-centre.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+
+    .retailImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .retailText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+
+    .retailTextDiv {
+        width: 90%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+
+    .retailTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+
+    .retailTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+
+    .retailTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+
+    .entertainment {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+    
+    .entertainmentImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/exterior-of-a-greek-resort.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .entertainmentImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .entertainmentText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .entertainmentTextDiv {
+        width: 90%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .entertainmentTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+    
+    .entertainmentTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .entertainmentTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+
+    .sports {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+    
+    .sportsImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/rows-of-yellow-and-blue-stadium-seats-on-soccer.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .sportImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .sportsText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .sportsTextDiv {
+        width: 90%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .sportsTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+    
+    .sportsTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .sportsTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+
+    .special {
+        height: 45%;
+        width: 45%;
+        border-radius: 10px;
+        margin-left: 2px;
+        flex-basis: 45%;
+        flex-direction: column;
+    }
+    
+    .specialImage {
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url(../Assets/warehouse-for-parcels-and-loads.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(70%) saturate(0);
+    }
+    
+    .specialImage:hover {
+        filter: brightness(100%);
+        transition: all 0.2s ease-out 0.1s;
+    }
+
+    .specialText {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .specialTextDiv {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(130deg, #4A4A4A 0%, #000000 100%);
+    }
+    
+    .specialTextDiv i{
+        font-size: 23px; 
+        color: orangered;
+    }
+    
+    .specialTextDiv h3{
+        margin-top: 5px;
+        color: orangered;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .specialTextDiv p{
+        font-size: 13px;
+        font-family: "Merienda", cursive;
+        margin-top: 5px;
+        color: white;
+    }
+        
+
+    /* Designing the Footer Contact Section */
+    .contactHeader {
+        height: 60vh;
+        width: 100%;
+        background-color: rgb(31, 27, 27);
+    }
+
+    .contactHeaderRow {
+        height: 20vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3%;
+        align-items: center;
+        align-content: center;
+    }
+
+    .contactHeaderRow h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 35px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactBodyRow {
+        height: 29vh;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        align-content: center;
+        display: flex;
+    }
+
+    .contactBodyColumn {
+        height: 29vh;
+        width: 35%;
+    }
+
+    .contactBodyColumn h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 20px;
+        color: orangered; 
+    }
+
+    .number {
+        margin-top: 20px;
+    }
+
+    .number a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        height: 20px;
+        margin-left: 10px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .number a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+
+    }
+
+    .number i{
+        font-size: 12px;
+        height: 20px;
+        width: 15px;
+        align-content: center;
+    }
+
+    .number p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+        font-size: 15px;
+    }
+
+    .email {
+        margin-top: 10px;
+    }
+
+    .email a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        width: 100%;
+        align-content: center;
+    }
+
+    .email a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+
+    }
+
+    .email i{
+        font-size: 12px;
+        height: 20px;
+        width: 15px;
+        align-content: center;
+    }
+
+    .email p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+        font-size: 15px;
+    }
+
+    .location {
+        margin-top: 10px;
+    }
+
+    .location a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        width: 90%;
+        align-content: center;
+    }
+
+    .location a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+
+    }
+
+    .location i{
+        font-size: 12px;
+        height: 20px;
+        width: 15px;
+        align-content: center;
+    }
+
+    .location p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+        font-size: 15px;
+    }    
+
+    .contactBodyColumns {
+        height: 29vh;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    .contactBodyColumns h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 20px;
+        color: orangered; 
+    }
+
+    .nummbers {
+        margin-top: 10px;
+    }
+
+    .nummbers a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 80%;
+        align-content: center;
+    }
+
+    .nummbers a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+
+    }
+
+    .nummbers i{
+        font-size: 12px;
+        height: 20px;
+        width: 15px;
+        align-content: center;
+    }
+
+    .nummbers p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+        font-size: 15px;
+    }
+
+    .numbers {
+        margin-top: 10px;
+    }
+
+    .numbers a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 80%;
+        align-content: center;
+        margin-left: 0px;
+    }
+
+    .numbers a:hover {
+        color: orangered;
+        transition: color 0.3s ease-in-out 0.1s;
+        margin-left: 40px;
+        transition: margin-left 0.3s ease-in-out 0.1s;
+
+    }
+
+    .numbers i{
+        font-size: 12px;
+        height: 20px;
+        width: 15px;
+        align-content: center;
+    }
+
+    .numbers p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+        font-size: 15px;
+    }
+
+    .numberrs {
+        display: flex;
+    }
+
+    .numberrs input[type="email"]{
+        padding-left: 15px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 55%;
+        height: 40px;
+        font-weight: 300;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .numberrs input[type="submit"]{
+        width: 45%;
+        padding-left: 15px;
+        border: none;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+        cursor: pointer;
+        margin-top: 20px;
+        border-bottom-right-radius: 7px;
+        color: black;
+        background-color: orangered;
+    }
+
+    .numberrs input[type="submit"]:hover{
+        background-color: rgb(220, 59, 0);
+        color: black;
+        transition: color 0.2s ease-in-out 0.1s;
+        transition: background-color 0.2s ease-in-out 0.1s;
+    }
+
+    /* Designing the Footer Section */
+    footer {
+        height: 60px;
+        width: 100%;
+        align-content: center;
+        background-color: black;
+    }
+    
+    .footerRow {
+        display: flex;
+        height: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .copyright {
+        width: 45%;
+        color: white;
+    }
+    
+    .copyright p{
+        font-size: 13px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .BTT {
+        width: 5%;
+        height: 30px;
+        margin-left: 5%;
+    }
+    
+    .BTT a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: "Oswald", sans-serif;
+        color: white;
+    }
+    
+    .BTT a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .socials {
+        display: flex;
+        margin-left: 30%;
+        width: 15%;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .socials a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .phone {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .phone i{
+        font-size: 14px;
+    }
+    
+    .phone a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .mails {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .mails i{
+        font-size: 14px;
+    }
+    
+    .mails a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .linkedins {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .linkedins i{
+        font-size: 14px;
+    }
+    
+    .linkedins a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .instagrams {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .instagrams i{
+        font-size: 14px;
+    }
+    
+    .instagrams a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+    
+    .calls {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .calls i{
+        font-size: 14px;
+    }
+    
+    .calls a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }   
+}

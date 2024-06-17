@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Southern Oaks</title>
+      <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="../Assets/SouthernOaksLogo.jpg" type="image/x-icon">
+      <!-- <link rel="stylesheet" href="./Assets/animations.min.css" type="text/css"> -->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="../Font Awesome 6/fontawesome-free-6.5.2-web/css/all.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+  </head>
+
+  <body>
+    
+    <!-- Creating the header section -->
+    <header class="header">
+
+        <!-- Top Header Row -->
+        <div class="headerIconRow">
+            <div class="icon">
+
+                <div class="facebook">
+                    <a href="tel:07040175584">
+                        <div class="facebookIcon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>0704-017-5584</p>
+                    </a>
+                </div>
+
+                <div class="mail">
+                  <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer">
+                    <div class="mailIcon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <p>southernoaks@gmail.com</p>
+                  </a>
+                </div>
+      
+                <div class="oSocials">
+                    <a href="https://www.instagram.com/southernoaks_realestate" target="_self" rel="noopener noreferrer">
+                        <div class="instagram">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                    </a>
+        
+                    <a href="https://www.facebook.com/profile.php?id=61558410431406&mibextid=LQQJ4d" target="_self" rel="noopener noreferrer">
+                        <div class="call">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Second header row -->
+        <div class="header-row">
+            <!-- Header Logo container -->
+            <div class="logo">
+                <a href="../index.html"><p><span>Southern Oaks</span><br>Nig. Ltd</p></a>
+            </div>
+            <!-- Navigation container -->
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html" class="nav-link active">Our Properties</a></li>
+                    <li><a href="../Gallery Page/index.html" class="nav-link">Gallery</a></li>
+                    <li><a href="../Contact/index.html" class="nav-link">Contact Us</a></li>
+                    <li><a href="../About Page/index.html" class="nav-link">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Hamburger container -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Creating the Hero section -->
+    <section class="hero">
+        <div class="heroSection"></div>
+        <div class="heading">
+            <p>Our<span style="color: orangered;"><br>Projects</span></p>
+          <div class="line"></div>
+    </div>
+    </section>
+
+    <!-- Creating the Fixed background property -->
+    <section class="background"></section>
+
+    <!-- Creating the Contact us Section -->
+    <section class="contactUs">
+        <div class="contact">
+          <div class="contactText">
+            <h5>What we Do</h5>
+            <div class="contactLine"></div>
+            <p>
+              At Southern Oaks, we do more than build homes; we craft dreams into reality. 
+              <!-- Every project, big or small, is infused with care, dedication, and a touch of Southern charm. -->
+              From cozy family abodes to modern architectural marvels, we pride ourselves on creating spaces that 
+              resonate with warmth, comfort, and contemporary elegance.
+              <br />
+              <br />
+              Welcome to Southern Oaks, where your vision becomes our masterpiece.
+            </p>
+          </div>
+        </div>
+        <div class="form">
+            <div class="formHead">
+                <i class="fa-solid fa-clock"></i>
+                <div class="formHeadText">
+                    <p>Get Online</p>
+                    <h5>Notification</h5>
+                </div>
+            </div>
+            <input type="text" name="name_field" id="name" placeholder="Your Name">
+            <input type="email" name="email_field" id="email" placeholder="Your Email">
+            <input type="submit" value="SUBMIT">
+        </div>
+    </section>
+
+    
+    <!-- Creating the Services -->
+    <section class="services">
+      <div class="servicesBackground"></div>
+      <div class="servicesRow">
+        <div class="hotels hotel">
+          <div class="hotelsImage"></div>
+          <div class="hotelsText">
+            <div class="hotelsTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Jahi</h3>
+              <p>Stylish modern house in Jahi, blending contemporary living with comfort, featuring open-plan spaces and cutting-edge decor.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="mixed">
+          <div class="mixedImage"></div>
+          <div class="mixedText">
+            <div class="mixedTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Jabi</h3>
+              <p>Luxurious, spacious apartments in Jabi with high ceilings, natural light, and top-notch amenities including a gym and pool.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="multi">
+          <div class="multiImage"></div>
+          <div class="multiText">
+            <div class="multiTextDiv">
+              <i class="fa-solid fa-home"></i>
+              <h3>Maitama</h3>
+              <p>Experience luxury in Maitama with our sleek, furnished homes, offering premium design, spacious living, and excellent community amenities.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="office">
+          <div class="officeImage"></div>
+          <div class="officeText">
+            <div class="officeTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Asokoro</h3>
+              <p>Elegant 2-level flat in Asokoro, featuring modern design, a private garden, and serene surroundings for a perfect city retreat.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Creating the Commercial Building Section -->
+    <section class="commercial">
+      <div class="commercialRow">
+        <div class="commercialText">
+          <div class="commercialTexts">
+            <h3>COMMERCIAL BUILDINGS</h3>
+            <h6>Transforming Spaces, Enriching Communities</h6>
+            <p>Our commercial buildings redefine urban landscapes, offering vibrant hubs for retail, sports, entertainment, and special projects. 
+              From bustling shopping centers to dynamic sports facilities and captivating event venues, each project reflects our commitment to innovation, functionality, and community enrichment. 
+              Explore our diverse portfolio and discover the possibilities of modern commercial architecture.</p>
+          </div>
+        </div>
+        <div class="commercialImage"></div>
+      </div>
+    </section>
+    
+    <!-- Creating the Second Services Section-->
+    <section class="servicess">
+      <div class="servicessBackground"></div>
+      <div class="servicessRow">
+        <div class="retail">
+          <div class="retailImage"></div>
+          <div class="retailText">
+            <div class="retailTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>RETAIL</h3>
+              <p>Modern retail spaces in prime locations, designed for businesses to thrive with high foot traffic and top-notch facilities.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="entertainment">
+          <div class="entertainmentImage"></div>
+          <div class="entertainmentText">
+            <div class="entertainmentTextDiv">
+              <i class="fa-solid fa-home"></i>
+              <h3>Entertainment</h3>
+              <p>Versatile event centers and halls, perfect for hosting unforgettable events with top-tier amenities and elegant design.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="sports">
+          <div class="sportsImage"></div>
+          <div class="sportsText">
+            <div class="sportsTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Sports Culture</h3>
+              <p>State-of-the-art sports centers and gyms with cutting-edge equipment, expert trainers, and a welcoming atmosphere for all fitness levels.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="special">
+          <div class="specialImage"></div>
+          <div class="specialText">
+            <div class="hotelsTextDiv">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Special Projects</h3>
+              <p>Unique and innovative developments, tailored to meet specific needs with a focus on excellence and sustainability.</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Designing the Contact Section -->
+    <section class="contactHeader">
+      <div class="contactHeaderRow">
+          <h5><span style="color: orangered; font-size: 34px;">Southern Oaks</span><br />Nigeria. Ltd</h5>
+      </div>
+      <div class="contactBodyRow">
+          <div class="contactBodyColumn">
+              <h5>Contact Info</h5>
+              <div class="number">
+                  <a href="tel:07040175584" target="_self" rel="noopener noreferrer">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>0704-017-5584</p>
+                  </a>
+              </div>
+              <div class="email">
+                  <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer">
+                      <i class="fa-solid fa-envelope"></i>
+                      <p>inquire@southernoaks.com.ng</p>
+                  </a>
+              </div>
+              <div class="location">
+                  <a href="">
+                      <i class="fa-solid fa-location"></i>
+                      <p>1A Lumsar Street, Wuse Zone 4, Abuja</p>
+                  </a>
+              </div>
+          </div>
+          <div class="contactBodyColumns">
+              <h5>Quick Links</h5>
+              <div class="nummbers">
+                  <a href="../index.html" target="_self">
+                      <i class="fa-solid fa-caret-right"></i>
+                      <p>Home</p>
+                  </a>
+              </div>
+              <div class="nummbers">
+                  <a href="index.html" target="_self">
+                      <i class="fa-solid fa-caret-right"></i>
+                      <p>Our Properties</p>
+                  </a>
+              </div>
+              <div class="nummbers">
+                  <a href="../Contact/index.html" target="_self">
+                      <i class="fa-solid fa-caret-right"></i>
+                      <p>Contact Us</p>
+                  </a>
+              </div>
+              <div class="nummbers">
+                  <a href="../About Page/index.html" target="_self">
+                      <i class="fa-solid fa-caret-right"></i>
+                      <p>About</p>
+                  </a>
+              </div>
+          </div>
+          <div class="contactBodyColumn">
+              <h5>Subscribe To Our Newsletter</h5>
+              <div class="numberrs">
+                  <input type="email" name="email_field" id="email" placeholder="Your Email">
+                  <input type="submit" value="SUBMIT" />
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Designing the Footer Section -->
+    <footer>
+        <div class="footerRow">
+            <div class="copyright">
+                <p>Copyright © 2024 Southern Oaks Nig. Limited</p>
+            </div>
+            <div class="BTT">
+              <a href="#" id="back-to-top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+
+            <div class="socials">
+                <div class="phone">
+                    <a href="tel:08068251438" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                
+                <div class="mails">
+                    <a href="mailto:inquire@southernoaks.com.ng" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+      
+                <div class="calls">
+                    <a href="https://www.facebook.com/profile.php?id=61558410431406&mibextid=LQQJ4d" target="_self" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+
+                <div class="instagrams">
+                    <a href="https://www.instagram.com/southernoaks_realestate" target="_self" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+  <script src="script.js"></script>
+</html>

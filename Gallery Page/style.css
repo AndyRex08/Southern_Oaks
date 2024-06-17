@@ -1,0 +1,2021 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    height: auto;
+}
+
+
+/* Styling the Header section */
+.header {
+    height: auto;
+    align-content: center;
+    
+}
+
+.headerIconRow {
+    height: 40px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.facebook {
+    width: 12vw;
+    height: 30px;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.facebookIcon {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    border-color: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.facebook a{
+    width: 10vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.facebook i{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook p{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.facebook:hover a, .facebook:hover p{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.mail {
+    width: 15vw;
+    height: 30px;
+    align-items: center;
+}
+
+.mailIcon {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mail a{
+    width: 14vw;
+    height: 30px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.mail i{
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail p{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.mail:hover a, .mail:hover p{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.oSocials {
+    height: 40px;
+    margin-left: 50vw;
+    display: flex;
+    align-content: center;
+}
+
+.instagram {
+    height: 40px;
+    width: 30px;
+    align-content: center;
+    border-right: 1px solid black;
+}
+
+.instagram i{
+    height: 30px;
+    width: 30px;
+    align-content: center;
+    margin-left: 9px;
+    color: white;
+}
+
+.instagram:hover i{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.2s;
+}
+
+.call {
+    margin-left: 10px;
+    height: 40px;
+    width: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.call i{
+    height: 30px;
+    width: 30px;
+    align-content: center;
+    margin-left: 7px;
+    color: white;
+}
+
+.call:hover i{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.2s;
+}
+
+.header-row {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(31, 27, 27);
+    align-content: center;
+
+}
+
+.logo {
+    margin-left: 10vw;
+    width: 20vw;
+    align-content: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo p{
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.logo a:hover{
+    color: orangered;
+    transition: color 0.2s ease-in-out 0.1s;
+}
+
+.nav {
+    width: 20vw;
+    height: 140px;
+    align-content: center;
+    margin-left: 51vw;
+}
+
+.nav a{
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+}
+
+.button {
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white;
+}
+
+.button:hover {
+    background-color: black;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+
+.button p{
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    align-content: center;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+/* Styling the Hero Section */
+.hero {
+    height: 100vh;
+    display: block;
+}
+
+.heroSection {
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../Assets/construction-worker-on-duty.jpg);
+    filter: brightness(0.6);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.heading {
+    margin-left: 10vw;
+    width: 42vw;
+}
+
+.heading p{
+    font-family: "Antonio", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 30vh;
+}
+
+.line {
+    height: 7px;
+    width: 11vw;
+    margin-left: 0vw;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Background Section Styling */
+.background {
+    height: 65vh;
+    background-attachment: fixed;
+    background-image: url(/Assets/dark-abstract-backgrounds-02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+}
+
+
+/* Styling the Contact Section */
+.contactUs {
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    padding-bottom: 11vh;
+    margin-left: 10vw;
+    margin-top: -81vh;
+    filter: brightness(0.9);
+}
+
+.form {
+    margin-left: 50%;
+    width: 57%;
+    background-color: orangered;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHead {
+    display: flex;
+    width: 30vw;
+    height: 100px;
+    margin-top: 12vh;
+    margin-left: 3.5vw;
+    align-items: center;
+}
+
+.form i{
+    color: white;
+    font-size: 70px;
+    align-content: center;
+    height: 90px;
+    width: 100px;
+}
+
+.formHeadText {
+    margin-left: 20px;
+}
+
+.formHeadText p{
+    font-family: "Antonio", sans-serif;
+    font-size: 20px;
+}
+
+.form h5{
+    font-family: "Antonio", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form input{
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin: 3vh auto 0 auto;
+}
+
+.form input[type="text"]{
+    padding-left: 15px;
+    margin-top: 5vh;
+    border: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.form input[type="email"]{
+    padding-left: 15px;
+    border: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.form input[type="submit"]{
+    width: 83%;
+    padding-left: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: "Antonio", sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    color: orangered;
+    background-color: rgb(31, 27, 27);
+}
+
+.form input[type="submit"]:hover{
+    background-color: rgb(220, 59, 0);
+    color: black;
+    transition: color 0.2s ease-in-out 0.1s;
+    transition: background-color 0.2s ease-in-out 0.1s;
+}
+
+.touch {
+    height: 80vh;
+}
+
+.touchRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.touchImage {
+    background-image: url(../Assets/building-in-modern-city.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    height: 100%;
+    width: 50%;
+}
+
+.touchImage:hover {
+    filter: brightness(70%);
+    transition: filter 0.2s ease-in-out 0.05s;
+}
+
+.touchText {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(31, 27, 27);
+    align-content: center;
+}
+
+.touchTexts {
+    width: 30vw;
+    height: 60vh;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: "Antonio", sans-serif;
+}
+
+.textLine {
+    height: 5px;
+    width: 6.5vw;
+    margin-top: 30px;
+    background-color: orangered;
+}
+
+.contactBodyColumn {
+    width: 40vw;
+    font-size: 16px;
+    color: orangered;
+    margin-top: 5vh;
+}
+
+.number {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.number i{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.number p{
+    margin-left: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+.email {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.email i{
+    font-size: 14px;
+}
+
+.email p{
+    margin-left: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+.location {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.location i{
+    font-size: 14px;
+}
+
+.location p{
+    margin-left: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+.socialss {
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.faces {
+    height: 10vh;
+    align-content: center;
+}
+
+.facebookIconI {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: orangered;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebookIconI i{
+    color: black;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.facebookIconI:hover {
+    margin-top: -20px;
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.facebookIconI:hover i{
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.insta {
+    height: 10vh;
+    align-content: center;
+}
+
+.instagramIconI {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: orangered;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagramIconI i{
+    color: black;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+.instagramIconI:hover {
+    margin-top: -20px;
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.instagramIconI:hover i{
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+} 
+
+.twitter {
+    height: 10vh;
+    align-content: center;
+}
+
+.twitterIconI {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: orangered;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterIconI i{
+    color: black;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+.twitterIconI:hover {
+    margin-top: -20px;
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.twitterIconI:hover i{
+    color: white;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+
+/* Styling the Footer Section */
+footer {
+    height: 70px;
+    width: 100%;
+    align-content: center;
+    background-color: black;
+}
+
+.footerRow {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    width: 40%;
+    color: white;
+}
+
+.copyright p{
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+}
+
+.BTT {
+    width: 2%;
+    height: 30px;
+    align-items: center;
+    margin-left: 53%;
+}
+
+.BTT a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.BTT a:hover{
+    color: orangered;
+    transition: color 0.5s ease-in-out 0.1s;
+}
+
+
+@media (min-width: 10px) and (max-width: 767px) {
+    * {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        height: auto;
+    }
+    
+    
+    /* Styling the Header section */
+    .header {
+        height: auto;
+        align-content: center;
+        
+    }
+    
+    .headerIconRow {
+        height: 40px;
+        width: 100%;
+    }
+    
+    .icon {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    
+    .icon a{
+        text-decoration: none;
+        color: black;
+        align-content: center;
+    }
+    
+    
+    .facebook {
+        width: 8vw;
+        height: 30px;
+        margin-left: 60vw;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .facebookIcon {
+        height: 22px;
+        width: 21px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .facebook a{
+        width: 22px;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .facebook i{
+        font-size: 15px;
+        color: black;
+        margin-top: 2.5px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .facebook p{
+        display: none;
+    }
+    
+    .facebook:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .mail {
+        width: 8vw;
+        height: 30px;
+        margin-left: 0px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mail a{
+        margin-left: 0px;
+        width: 40px;
+    }
+    
+    .mailIcon {
+        height: 22px;
+        width: 22px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .mailIcon a{
+        width: 20vw;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .mailIcon i{
+        font-size: 15px;
+        color: black;
+        margin-top: 2.3px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .mail p{
+        display: none;
+    }
+    
+    .mail:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .oSocials {
+        align-content: center;
+        display: flex;
+        margin-left: -5px;
+        width: 20vw;
+        height: 40px;
+    }
+
+    .oSocials a{
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+
+    .instagram {
+        margin-left: 0px;
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+    
+    .instagram i{
+        font-size: 18px;
+        align-content: center;
+        color: white;
+    }
+    
+    .instagram:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .call {
+        margin-left: -5px;
+        height: 40px;
+        width: 40px; 
+    }
+    
+    .call i{
+        margin-top: 3px;
+        font-size: 18px;
+        align-content: center;
+        color: white;
+    }
+    
+    .call:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .header-row {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(31, 27, 27);
+        align-content: center;
+    
+    }
+    
+    .logo {
+        margin-left: 5vw;
+        width: 50%;
+        align-content: center;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo p{
+        width: 40vw;
+        font-size: 18px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+    }
+    
+    .logo a:hover{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+
+    .nav {
+        width: 30vw;
+        height: 80px;
+        align-content: center;
+        margin-left: 7.5vw;
+    }
+
+    .nav a{
+        text-decoration: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .button {
+        height: 50px;
+        width: 120px;
+        border-radius: 7px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: orangered;
+        color: white;
+    }
+
+    .button:hover {
+        background-color: black;
+        transition: all 0.3s ease-in-out 0.2s;
+    }
+
+    .button p{
+        text-transform: uppercase;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: "Oswald", sans-serif;
+    }
+
+
+    /* Styling the Hero Section */
+    .hero {
+        height: 70vh;
+        display: block;
+    }
+    
+    .heroSection {
+        position: absolute;
+        height: 70vh;
+        width: 100%;
+        background-image: url(../Assets/construction-worker-on-duty.jpg);
+        filter: brightness(40%);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .heading {
+        margin-left: 5vw;
+        width: 80vw;
+        height: 60vh;
+    }
+    
+    .heading p{
+        font-family: "Antonio", sans-serif;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 55px;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 100px;
+        height: 140px;
+    }
+    
+    .line {
+        height: 7px;
+        width: 80px;
+        margin-left: 0vw;
+        margin-top: 0px;
+        background-color: white;
+    }
+
+    /* Background Section Styling */
+    .background {
+        height: 120vh;
+        background-attachment: fixed;
+        background-image: url(/Assets/dark-abstract-backgrounds-02.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(60%);
+    }
+    
+    
+    /* Styling the Contact Section */
+    .contactUs {
+        height: 70vh;
+        width: 100%;
+        padding-bottom: 20vh;
+        flex-direction: column;
+        margin: -130vh auto 0 auto;
+    }
+    
+    .form {
+        margin: 0px 5% 0px 5%;
+        width: 90%;
+        background-color: orangered;
+        border-radius: 5px;
+        height: 70vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formHead {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin: 30px auto 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form i{
+        color: white;
+        font-size: 70px;
+        height: 90px;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .formHeadText {
+        margin-left: 10px;
+    }
+    
+    .formHeadText p{
+        font-family: "Antonio", sans-serif;
+        font-size: 20px;
+    }
+    
+    .form h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 35px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .form input{
+        display: block;
+        width: 80%;
+        height: 60px;
+        margin: 3vh auto 0 auto;
+    }
+    
+    .form input[type="text"]{
+        padding-left: 15px;
+        margin-top: 5vh;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="email"]{
+        padding-left: 15px;
+        border: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    .form input[type="submit"]{
+        width: 83%;
+        padding-left: 15px;
+        border: none;
+        font-size: 18px;
+        font-family: "Antonio", sans-serif;
+        cursor: pointer;
+        border-radius: 7px;
+        color: orangered;
+        background-color: rgb(31, 27, 27);
+    }
+    
+    .form input[type="submit"]:hover{
+        background-color: rgb(220, 59, 0);
+        color: black;
+        transition: color 0.2s ease-in-out 0.1s;
+        transition: background-color 0.2s ease-in-out 0.1s;
+    }
+
+    .touch {
+        height: auto;
+        margin-top: 0vh;
+    }
+    
+    .touchRow {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .touchImage {
+        order: 1;
+        background-image: url(../Assets/building-in-modern-city.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(50%);
+        height: 40vh;
+        width: 100%;
+    }
+    
+    .touchImage:hover {
+        filter: brightness(70%);
+        transition: filter 0.2s ease-in-out 0.05s;
+    }
+    
+    .touchText {
+        order: 2;
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(31, 27, 27);
+        align-content: center;
+    }
+    
+    .touchTexts {
+        width: 100%;
+        height: 50vh;
+        box-sizing: border-box;
+        margin-top: 8vh;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .touchTexts h3{
+        font-size: 20px;
+        color: white;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .textLine {
+        height: 3px;
+        width: 20%;
+        margin: 10px 40% 0px 40%;
+        background-color: orangered;
+    }
+    
+    .contactBodyColumn {
+        width: 50%;
+        font-size: 16px;
+        color: orangered;
+        margin: 10px 25% 0px 25%;
+        text-align: center;
+    }
+    
+    .number {
+        height: 20px;
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .number i{
+        font-size: 14px;
+    }
+    
+    .number p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .email {
+        height: 20px;
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .email i{
+        font-size: 14px;
+    }
+    
+    .email p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .location {
+        height: 20px;
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .location i{
+        font-size: 14px;
+    }
+    
+    .location p{
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: "Antonio", sans-serif;
+    }
+        
+
+    .socialss {
+        margin: 0px auto 0px auto;
+        width: 50%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .faces {
+        align-content: center;
+        height: 80px;
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    .facebookIconI {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: orangered;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facebookIconI i{
+        color: black;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .facebookIconI a:hover{
+        margin-top: -20px;
+        color: white;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+
+    .insta {
+        align-content: center;
+        height: 80px;
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    .insta a{
+        height: 40px;
+        width: 40px;
+    }
+
+    .instagramIconI {
+        height: 40px;
+        width: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 50%;
+        background-color: orangered;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .instagramIconI i{
+        color: black;
+        font-size: 20px;
+        margin-top: 0px;
+        align-content: center;
+        margin-left: 0px;
+    }
+
+    .instagramIconI:hover {
+        margin-top: -20px;
+        color: white;
+        transition: all 0.2s ease-in-out 0.1s;
+    }
+
+    .twitter {
+        align-content: center;
+        height: 80px;
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    .twitter:hover {
+        margin-top: -20px;
+        color: white;
+        transition: all 0.2s ease-in-out 0.1s;
+    }
+
+    .twitter a{
+        height: 40px;
+        width: 40px;
+    }
+
+    .twitterIconI {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: orangered;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .twitterIconI i{
+        color: black;
+        font-size: 20px;
+        margin-top: 0px;
+        align-content: center;
+        margin-left: 0px;
+    }
+
+    .twitter:hover i{
+        color: white;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+        
+    /* Styling the Footer Section */
+    footer {
+        height: 80px;
+        width: 100%;
+        align-content: center;
+        background-color: black;
+    }
+
+    .footerRow {
+        flex-direction: column;
+        height: 70px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: white; */
+    }
+
+    .copyright {
+        order: 1;
+        width: 100%;
+        color: white;
+    }
+
+    .copyright p{
+        text-align: center;
+        font-size: 16px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .BTT {
+        order: 2;
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 0%;
+        /* background-color: gray; */
+    }
+
+    .BTT a{
+        margin: 0px auto 0px auto;
+        width: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+        color: white;
+    }
+
+    .BTT a:hover{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.1s;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1300px) {
+    * {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        height: auto;
+        overflow-x: hidden;
+    }
+    
+    
+    /* Styling the Header section */
+    .header {
+        height: auto;
+        align-content: center;
+        
+    }
+    
+    .headerIconRow {
+        height: 40px;
+        width: 100%;
+    }
+    
+    .icon {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    
+    .icon a{
+        text-decoration: none;
+        color: black;
+        align-content: center;
+    }
+    
+    
+    .facebook {
+        width: 5vw;
+        height: 30px;
+        margin-left: 67.5vw;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .facebookIcon {
+        height: 22px;
+        width: 21px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .facebook a{
+        width: 22px;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .facebook i{
+        font-size: 15px;
+        color: black;
+        margin-top: 2.5px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .facebook p{
+        display: none;
+    }
+    
+    .facebook:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .mail {
+        width: 4vw;
+        height: 30px;
+        margin-left: 0px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mail a{
+        margin-left: 0px;
+        width: 40px;
+    }
+    
+    .mailIcon {
+        height: 22px;
+        width: 22px;
+        margin-top: -5px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .mailIcon a{
+        width: 20vw;
+        height: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .mailIcon i{
+        font-size: 15px;
+        color: black;
+        margin-top: 3px;
+        margin-left: 3px;
+        align-items: center;
+    }
+    
+    .mail p{
+        display: none;
+    }
+    
+    .mail:hover a{
+        color: orangered;
+        transition: color 0.2s ease-in-out 0.1s;
+    }
+    
+    .oSocials {
+        align-content: center;
+        display: flex;
+        margin-top: -2px;
+        margin-left: 0px;
+        width: 20vw;
+        height: 40px;
+    }
+
+    .oSocials a{
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+
+    .instagram {
+        margin-left: 0px;
+        height: 40px;
+        width: 40px;
+        align-content: center;
+    }
+    
+    .instagram i{
+        font-size: 18px;
+        margin-top: 3px;
+        align-content: center;
+        color: white;
+    }
+    
+    .instagram:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .call {
+        margin-left: -0px;
+        height: 40px;
+        width: 40px; 
+    }
+    
+    .call i{
+        margin-top: 3px;
+        font-size: 18px;
+        align-content: center;
+        color: white;
+    }
+    
+    .call:hover i{
+        color: orangered;
+        transition: color 0.5s ease-in-out 0.2s;
+    }
+    
+    .header-row {
+       display: flex;
+       overflow-x: hidden;
+       width: 100%;
+       height: 80px;
+       background-color: rgb(31, 27, 27);
+       align-content: center;
+   }
+    
+   .logo {
+       margin-left: 5vw;
+       width: 50%;
+       align-items: center;
+   }
+   
+   .logo a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   .logo p{
+       width: 40vw;
+       font-size: 18px;
+       font-family: "Oswald", sans-serif;
+       font-weight: 500;
+   }
+   
+   .logo a:hover{
+       color: orangered;
+       transition: color 0.2s ease-in-out 0.1s;
+   }
+   
+   .nav {
+       width: 20vw;
+       height: auto;
+       align-items: center;
+       margin-left: 12.5vw;
+   }
+   
+   .nav a{
+       text-decoration: none;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+       color: white;
+       font-weight: 400;
+       font-size: 18px;
+       font-family: "Oswald", sans-serif;
+   }
+   
+   .button {
+       height: 50px;
+       width: 150px;
+       border-radius: 10px;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+       background-color: orangered;
+       color: white;
+   }
+   
+   .button:hover {
+       background-color: black;
+       transition: all 0.3s ease-in-out 0.2s;
+   }
+   
+   .button p{
+       text-transform: uppercase;
+       text-align: center;
+       align-content: center;
+       align-items: center;
+   }
+   
+   .hamburger {
+       display: none;
+   }
+
+
+   /* Styling the Hero Section */
+   .hero {
+       height: 70vh;
+       display: block;
+   }
+
+   .heroSection {
+       position: absolute;
+       height: 70vh;
+       width: 100%;
+       background-image: url(../Assets/worker-on-the-building-frame.jpg);
+       filter: brightness(40%);
+       background-size: cover;
+       background-position: center center;
+       background-repeat: no-repeat;
+       z-index: -1;
+   }
+
+   .heading {
+       margin-left: 5vw;
+       width: 70vw;
+       height: 65vh;
+   }
+   
+   .heading p{
+       font-family: "Antonio", sans-serif;
+       font-weight: 500;
+       font-size: 65px;
+       color: white;
+       text-transform: uppercase;
+       padding-top: 30vh;
+   }
+   
+   .line {
+       height: 7px;
+       width: 11vw;
+       margin-left: 5px;
+       margin-top: 20px;
+       background-color: white;
+   }
+   
+   /* Background Section Styling */
+   .background {
+       height: 65vh;
+       background-attachment: fixed;
+       background-image: url(/Assets/dark-abstract-backgrounds-02.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       filter: brightness(60%);
+   }
+   
+   
+   /* Styling the Contact Section */
+   .contactUs {
+       height: 70vh;
+       width: 80vw;
+       display: flex;
+       margin-left: 10vw;
+       margin-top: -81vh;
+       filter: brightness(0.9);
+   }
+   
+   .form {
+       margin-left: 40%;
+       width: 60%;
+       background-color: orangered;
+       border-radius: 5px;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .formHead {
+       display: flex;
+       width: 93%;
+       height: 100px;
+       margin-top: 12vh;
+       margin-left: 3.5vw;
+       align-items: center;
+   }
+   
+   .form i{
+       color: white;
+       font-size: 70px;
+       align-content: center;
+       height: 90px;
+       width: 72px;
+   }
+   
+   .formHeadText {
+       margin-left: 20px;
+   }
+   
+   .formHeadText p{
+       font-family: "Antonio", sans-serif;
+       font-size: 20px;
+   }
+   
+   .form h5{
+       font-family: "Antonio", sans-serif;
+       font-size: 35px;
+       text-transform: uppercase;
+       justify-content: center;
+       align-content: center;
+       align-items: center;
+       color: white;
+   }
+   
+   .form input{
+       display: block;
+       width: 80%;
+       height: 60px;
+       margin: 3vh auto 0 auto;
+   }
+   
+   .form input[type="text"]{
+       padding-left: 15px;
+       margin-top: 5vh;
+       border: none;
+       font-size: 20px;
+       font-family: "Oswald", sans-serif;
+   }
+   
+   .form input[type="email"]{
+       padding-left: 15px;
+       border: none;
+       font-size: 20px;
+       font-family: "Oswald", sans-serif;
+   }
+   
+   .form input[type="submit"]{
+       width: 83%;
+       padding-left: 15px;
+       border: none;
+       font-size: 18px;
+       font-family: "Antonio", sans-serif;
+       cursor: pointer;
+       border-radius: 7px;
+       color: orangered;
+       background-color: rgb(31, 27, 27);
+   }
+   
+   .form input[type="submit"]:hover{
+       background-color: rgb(220, 59, 0);
+       color: black;
+       transition: color 0.2s ease-in-out 0.1s;
+       transition: background-color 0.2s ease-in-out 0.1s;
+   }
+   
+   .touch {
+       height: 80vh;
+   }
+   
+   .touchRow {
+       width: 100%;
+       height: 100%;
+       display: flex;
+   }
+   
+   .touchImage {
+       background-image: url(../Assets/building-in-modern-city.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       filter: brightness(50%);
+       height: 100%;
+       width: 50%;
+   }
+   
+   .touchImage:hover {
+       filter: brightness(70%);
+       transition: filter 0.2s ease-in-out 0.05s;
+   }
+   
+   .touchText {
+       width: 50%;
+       height: 100%;
+       background-color: rgb(31, 27, 27);
+       align-content: center;
+   }
+   
+   .touchTexts {
+       width: 30vw;
+       height: 60vh;
+       margin-left: 50px;
+       font-size: 25px;
+       color: white;
+       font-family: "Antonio", sans-serif;
+   }
+   
+   .textLine {
+       height: 5px;
+       width: 9.5vw;
+       margin-top: 15px;
+       background-color: orangered;
+   }
+   
+   .contactBodyColumn {
+       width: 40vw;
+       font-size: 16px;
+       color: orangered;
+       margin-top: 5vh;
+   }
+   
+   .number {
+       margin-top: 20px;
+       display: flex;
+       align-items: center;
+   }
+   
+   .number i{
+       margin-top: 5px;
+       font-size: 14px;
+   }
+   
+   .number p{
+       margin-left: 20px;
+       font-family: "Antonio", sans-serif;
+   }
+   
+   .email {
+       align-items: center;
+       margin-top: 20px;
+       display: flex;
+   }
+   
+   .email i{
+       font-size: 14px;
+   }
+   
+   .email p{
+       margin-left: 20px;
+       font-family: "Antonio", sans-serif;
+   }
+   
+   .location {
+       align-items: center;
+       margin-top: 20px;
+       display: flex;
+   }
+   
+   .location i{
+       font-size: 14px;
+   }
+   
+   .location p{
+       margin-left: 20px;
+       font-family: "Antonio", sans-serif;
+   }
+   
+   .socialss {
+       width: 70%;
+       height: 20vh;
+       display: flex;
+       align-items: center;
+   }
+   
+   .faces {
+       height: 10vh;
+       align-content: center;
+   }
+   
+   .facebookIconI {
+       height: 40px;
+       width: 40px;
+       margin-right: 25px;
+       border-radius: 50%;
+       background-color: orangered;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .facebookIconI i{
+       color: black;
+       font-size: 20px;
+       margin-top: 30%;
+       margin-left: 35%;
+       margin-right: auto;
+   }
+   
+   .facebookIconI:hover {
+       margin-top: -20px;
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   }
+   
+   .facebookIconI:hover i{
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   }
+   
+   .insta {
+       height: 10vh;
+       align-content: center;
+   }
+   
+   .instagramIconI {
+       height: 40px;
+       width: 40px;
+       margin-right: 25px;
+       border-radius: 50%;
+       background-color: orangered;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .instagramIconI i{
+       color: black;
+       font-size: 20px;
+       margin-top: 30%;
+       margin-left: 12px;
+       margin-right: auto;
+   }
+   
+   .instagramIconI:hover {
+       margin-top: -20px;
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   }
+   
+   .instagramIconI:hover i{
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   } 
+   
+   .twitter {
+       height: 10vh;
+       align-content: center;
+   }
+   
+   .twitterIconI {
+       height: 40px;
+       width: 40px;
+       margin-right: 25px;
+       border-radius: 50%;
+       background-color: orangered;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .twitterIconI i{
+       color: black;
+       font-size: 20px;
+       margin-top: 30%;
+       margin-left: 12px;
+       margin-right: auto;
+   }
+   
+   .twitterIconI:hover {
+       margin-top: -20px;
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   }
+   
+   .twitterIconI:hover i{
+       color: white;
+       transition: all 0.2s ease-in-out 0.1s;
+   }
+   
+   
+   /* Styling the Footer Section */
+   footer {
+       height: 70px;
+       width: 100%;
+       align-content: center;
+       background-color: black;
+   }
+   
+   .footerRow {
+       display: flex;
+       align-items: center;
+       height: 30px;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .copyright {
+       width: 50%;
+       color: white;
+   }
+   
+   .copyright p{
+       font-size: 16px;
+       font-family: "Oswald", sans-serif;
+   }
+   
+   .BTT {
+       width: 4%;
+       height: 30px;
+       margin-left: 46%;
+   }
+   
+   .BTT a{
+       text-decoration: none;
+       font-size: 20px;
+       font-family: "Oswald", sans-serif;
+       color: white;
+   }
+   
+   .BTT a:hover{
+       color: orangered;
+       transition: color 0.5s ease-in-out 0.1s;
+   }
+   
+    
+} 
