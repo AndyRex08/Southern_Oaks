@@ -259,7 +259,7 @@ ul {
     position: absolute;
     height: 120vh;
     width: 100%;
-    background-image: url(../Assets/worker-on-the-building-frame.jpg);
+    background-image: url(../Assets/sideViewDay.jpeg);
     filter: brightness(0.6);
     background-size: cover;
     background-position: top;
@@ -1309,7 +1309,7 @@ footer {
         position: absolute;
         height: 70vh;
         width: 100%;
-        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        background-image: url(../Assets/sideViewDay.jpeg);
         filter: brightness(40%);
         background-size: cover;
         background-position: center center;
@@ -1330,7 +1330,7 @@ footer {
         line-height: 45px;
         color: white;
         text-transform: uppercase;
-        padding-top: 140px;
+        padding-top: 250px;
         height: 100px;
     }
 
@@ -1746,7 +1746,6 @@ footer {
         height: 50vh;
         width: 100%;
         filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
-        /* background-color: orangered; */
     }
 
     #map:hover {
@@ -1766,7 +1765,6 @@ footer {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        /* background-color: black; */
         padding-top: 3%;
         align-items: center;
         align-content: center;
@@ -1788,7 +1786,6 @@ footer {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-        /* background-color: black; */
         align-items: center;
         align-content: center;
         flex-direction: column;
@@ -1798,7 +1795,6 @@ footer {
         height: 32vh;
         width: 100%;
         text-align: center;
-        /* border-right: 1px solid white; */
     }
 
     .contactBodyColumn h5{
@@ -1817,7 +1813,6 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        /* align-content: center; */
         padding-top: 5px;
     }
 
@@ -1834,7 +1829,6 @@ footer {
     }
 
     .number p{
-        /* margin-left: 20px; */
         height: 20px;
         margin-top: -3px;
         font-size: 14px;
@@ -1851,7 +1845,6 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        /* align-content: center; */
         padding-top: 5px;
     }
 
@@ -1869,7 +1862,6 @@ footer {
     }
 
     .email p{
-        /* margin-left: 20px; */
         height: 20px;
         margin-top: -3px;
         font-size: 14px;
@@ -1886,7 +1878,6 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        /* align-content: center; */
         padding-top: 5px;
     }
 
@@ -2400,7 +2391,7 @@ footer {
         position: absolute;
         height: 70vh;
         width: 100%;
-        background-image: url(../Assets/worker-on-the-building-frame.jpg);
+        background-image: url(../Assets/sideViewDay.jpeg);
         filter: brightness(40%);
         background-size: cover;
         background-position: center center;
@@ -2421,7 +2412,7 @@ footer {
         line-height: 70px;
         color: white;
         text-transform: uppercase;
-        padding-top: 90px;
+        padding-top: 200px;
         height: 150px;
     }
 

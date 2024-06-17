@@ -267,7 +267,7 @@ body {
     position: absolute;
     height: 120vh;
     width: 100%;
-    background-image: url(../Assets/construction-worker-on-duty.jpg);
+    background-image: url(../Assets/sideViewDay.jpeg);
     filter: brightness(0.6);
     background-size: cover;
     background-position: top;
@@ -927,7 +927,7 @@ footer {
         position: absolute;
         height: 70vh;
         width: 100%;
-        background-image: url(../Assets/construction-worker-on-duty.jpg);
+        background-image: url(../Assets/sideViewDay.jpeg);
         filter: brightness(40%);
         background-size: cover;
         background-position: top;
@@ -948,7 +948,7 @@ footer {
         line-height: 55px;
         color: white;
         text-transform: uppercase;
-        padding-top: 100px;
+        padding-top: 250px;
         height: 140px;
     }
     
@@ -1622,7 +1622,7 @@ footer {
        position: absolute;
        height: 70vh;
        width: 100%;
-       background-image: url(../Assets/worker-on-the-building-frame.jpg);
+       background-image: url(../Assets/sideViewDay.jpeg);
        filter: brightness(40%);
        background-size: cover;
        background-position: center center;
@@ -1642,7 +1642,7 @@ footer {
        font-size: 65px;
        color: white;
        text-transform: uppercase;
-       padding-top: 30vh;
+       padding-top: 200px;
    }
    
    .line {
