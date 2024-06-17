@@ -1987,7 +1987,7 @@ footer {
     .mailIcon i{
         font-size: 15px;
         color: black;
-        margin-top: 3px;
+        margin-top: 2.5px;
         margin-left: 3px;
         align-items: center;
     }
@@ -2086,7 +2086,7 @@ footer {
     }
 
     .nav {
-       position: absolute;
+       position: fixed;
        right: -115vw;
        top: 118px;
        gap: 0;
@@ -2094,7 +2094,6 @@ footer {
        background-color: rgb(31, 27, 27);
        width: 52vw;
        height: 37vh;
-       /* text-align: center; */
        justify-content: center;
        transition: 0.3s;
        padding: 0;
@@ -2103,7 +2102,6 @@ footer {
     .nav ul{
         margin: 10px 0;
         display: block;
-        /* justify-content: center; */
         align-content: center;
     }
 
