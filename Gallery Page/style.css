@@ -254,7 +254,7 @@ body {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: azure;
 }
 
 /* Styling the Hero Section */
@@ -944,12 +944,12 @@ footer {
     .heading p{
         font-family: "Antonio", sans-serif;
         font-weight: 500;
-        font-size: 55px;
-        line-height: 55px;
+        font-size: 40px;
+        line-height: 45px;
         color: white;
         text-transform: uppercase;
-        padding-top: 250px;
-        height: 140px;
+        padding-top: 150px;
+        height: 100px;
     }
     
     .line {
@@ -1126,7 +1126,7 @@ footer {
     }
     
     .contactBodyColumn {
-        width: 50%;
+        width: 60%;
         font-size: 16px;
         color: orangered;
         margin: 10px 25% 0px 25%;
@@ -1137,6 +1137,7 @@ footer {
         height: 20px;
         margin-top: 20px;
         display: flex;
+        align-items: center;
     }
     
     .number i{
@@ -1145,7 +1146,6 @@ footer {
     
     .number p{
         margin-left: 20px;
-        margin-top: -5px;
         font-family: "Antonio", sans-serif;
     }
     
@@ -1153,6 +1153,7 @@ footer {
         height: 20px;
         margin-top: 20px;
         display: flex;
+        align-content: center;
     }
     
     .email i{
@@ -1161,7 +1162,6 @@ footer {
     
     .email p{
         margin-left: 20px;
-        margin-top: -5px;
         font-family: "Antonio", sans-serif;
     }
     
@@ -1169,6 +1169,7 @@ footer {
         height: 20px;
         margin-top: 20px;
         display: flex;
+        align-items: center;
     }
     
     .location i{
@@ -1177,7 +1178,6 @@ footer {
     
     .location p{
         margin-left: 20px;
-        margin-top: -5px;
         font-family: "Antonio", sans-serif;
     }
         
@@ -1312,7 +1312,6 @@ footer {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        /* background-color: white; */
     }
 
     .copyright {

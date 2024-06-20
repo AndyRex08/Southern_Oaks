@@ -246,7 +246,7 @@ ul {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: azure;
 }
 
 /* Styling the Hero Section */
@@ -1330,7 +1330,7 @@ footer {
         line-height: 45px;
         color: white;
         text-transform: uppercase;
-        padding-top: 250px;
+        padding-top: 150px;
         height: 100px;
     }
 
@@ -1549,6 +1549,10 @@ footer {
         background-color: orangered;
     }
 
+    .numbersss:first-of-type {
+        margin-top: 2vh;
+    }
+
     .numbersss {
         margin-top: 15px;
     }
@@ -1566,8 +1570,8 @@ footer {
 
     .numbersss a:hover {
         color: orangered;
-        transition: color 0.3s ease-in-out 0.1s;
-        margin-left: 70px;
+        transition: all 0.3s ease-in-out 0.1s;
+        margin-left: 140px;
         transition: margin-left 0.3s ease-in-out 0.1s;
 
     }
@@ -1615,9 +1619,10 @@ footer {
 
     .socialss {
         margin: 2vh auto 0px auto;
-        width: 45%;
+        width: 50%;
         height: 15vh;
         display: flex;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -1625,7 +1630,6 @@ footer {
         align-content: center;
         height: 80px;
         width: 40px;
-        /* margin-left: 10px; */
     }
 
     .facebookIconI {
@@ -1694,7 +1698,6 @@ footer {
     }
 
     .twitter:hover {
-        margin-top: -20px;
         color: white;
         transition: all 0.2s ease-in-out 0.1s;
     }
@@ -1755,7 +1758,7 @@ footer {
 
     /* Styling the Contact Header Section */
     .contactHeader {
-        height: 111vh;
+        height: 113vh;
         width: 100%;
         background-color: rgb(31, 27, 27);
     }
@@ -1782,7 +1785,7 @@ footer {
     }
 
     .contactBodyRow {
-        height: 89vh;
+        height: 90vh;
         width: 75%;
         margin-left: auto;
         margin-right: auto;
@@ -1845,7 +1848,7 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        padding-top: 5px;
+        padding-top: 0px;
     }
 
     .email a:hover {

@@ -245,7 +245,7 @@ ul {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: azure;
 }
 
 
@@ -2178,7 +2178,7 @@ footer {
         width: 100%;
         color: white;
         text-transform: uppercase;
-        padding-top: 250px;
+        padding-top: 200px;
         height: 100px;
     }
     
@@ -2621,7 +2621,7 @@ footer {
 
     .comGridLink a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2664,7 +2664,7 @@ footer {
 
     .comGridLink2 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2707,7 +2707,7 @@ footer {
 
     .comGridLink3 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2750,7 +2750,7 @@ footer {
 
     .comGridLink4 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2821,7 +2821,7 @@ footer {
 
     .comGrid2Link a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2859,11 +2859,12 @@ footer {
 
     .comGridLinkCol2 {
         margin-top: 0px;
+        width: 100%;
     }
 
     .comGridLinkCol2 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2901,11 +2902,12 @@ footer {
 
     .comGridLinkCol3 {
         margin-top: 0px;
+        width: 100%;
     }
 
     .comGridLinkCol3 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -2948,7 +2950,7 @@ footer {
 
     .comGridLinkCol4 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -3423,7 +3425,7 @@ footer {
     }
 
     .contactHeaderRow {
-        height: 20vh;
+        height: 21vh;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -3454,7 +3456,7 @@ footer {
     }
 
     .contactBodyColumn {
-        height: 32vh;
+        height: 30vh;
         width: 100%;
         text-align: center;
     }
@@ -3472,10 +3474,11 @@ footer {
     .number a{
         display: flex;
         text-decoration: none;
+        align-items: center;
         color: white;
         width: 100%;
         height: 20px;
-        padding-top: 5px;
+        padding-top: 0px;
     }
 
     .number a:hover {
@@ -3492,13 +3495,14 @@ footer {
 
     .number p{
         height: 20px;
-        margin-top: -3px;
+        margin-top: 0px;
         font-size: 14px;
         font-family: "Antonio", sans-serif;
+        align-content: center;
     }
 
     .email {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .email a{
@@ -3507,7 +3511,7 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        padding-top: 5px;
+        padding-top: 0px;
     }
 
     .email a:hover {
@@ -3521,17 +3525,19 @@ footer {
     .email i{
         font-size: 14px;
         width: 20px;
+        height: 20px;
+        align-content: center;
     }
 
     .email p{
         height: 20px;
-        margin-top: -3px;
+        margin-top: 0px;
         font-size: 14px;
         font-family: "Antonio", sans-serif;
     }
 
     .location {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .location a{
@@ -3540,7 +3546,7 @@ footer {
         color: white;
         width: 100%;
         height: 20px;
-        padding-top: 5px;
+        padding-top: 0px;
     }
 
     .location a:hover {
@@ -3551,6 +3557,7 @@ footer {
     }
 
     .location i{
+        align-content: center;
         font-size: 14px;
         width: 20px;
     }
@@ -3558,13 +3565,35 @@ footer {
     .location p{
         margin-left: 10px;
         height: 20px;
-        margin-top: -3px;
+        align-content: center;
+        margin-top: 0px;
         font-size: 14px;
         font-family: "Antonio", sans-serif;
     }
 
-    .nuumber {
+    .contactBodyColumns {
+        height: 34vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .contactBodyColumns h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+
+    .contactBodyColumns .number {
+        margin-top: 10px;
+    }
+
+    .nuumber:first-of-type {
         margin-top: 20px;
+    }
+
+    .nuumber{
+        margin-top: 10px;
     }
 
     .nuumber a{
@@ -3590,9 +3619,22 @@ footer {
 
     .nuumber p{
         height: 20px;
-        margin-top: -3px;
+        margin-top: 0px;
         font-size: 14px;
         font-family: "Antonio", sans-serif;
+    }
+
+    .contactBodyColumnss {
+        height: 25vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .contactBodyColumnss h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
     }
 
     .numberrs {
@@ -3633,36 +3675,6 @@ footer {
         color: black;
         transition: color 0.2s ease-in-out 0.1s;
         transition: background-color 0.2s ease-in-out 0.1s;
-    }
-
-    .contactBodyColumns {
-        height: 33vh;
-        width: 100%;
-        text-align: center;
-        margin-top: 0vh;
-    }
-
-    .contactBodyColumns h5{
-        font-family: "Antonio", sans-serif;
-        font-size: 18px;
-        color: orangered; 
-    }
-
-    .contactBodyColumns .number {
-        margin-top: 10px;
-    }
-
-    .contactBodyColumnss {
-        height: 25vh;
-        width: 100%;
-        text-align: center;
-        margin-top: 0vh;
-    }
-
-    .contactBodyColumnss h5{
-        font-family: "Antonio", sans-serif;
-        font-size: 18px;
-        color: orangered; 
     }
 
     /* Designing the Footer Section */
@@ -4027,7 +4039,6 @@ footer {
         background-color: rgb(31, 27, 27);
         width: 52vw;
         height: 37vh;
-        /* text-align: center; */
         justify-content: center;
         transition: 0.3s;
         padding: 0;
@@ -4036,7 +4047,6 @@ footer {
     .nav ul{
         margin: 10px 0;
         display: block;
-        /* justify-content: center; */
         align-content: center;
     }
 
@@ -4109,12 +4119,12 @@ footer {
     .heading p{
         font-family: "Antonio", sans-serif;
         font-weight: 500;
-        font-size: 65px;
+        font-size: 55px;
         line-height: 65px;
         height: 140px;
         color: white;
         text-transform: uppercase;
-        padding-top: 25vh;
+        padding-top: 200px;
     }
 
     .line {
@@ -4540,7 +4550,7 @@ footer {
 
     .comGridLink a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4583,7 +4593,7 @@ footer {
 
     .comGridLink2 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4626,7 +4636,7 @@ footer {
 
     .comGridLink3 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4669,7 +4679,7 @@ footer {
 
     .comGridLink4 a{
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4731,7 +4741,7 @@ footer {
 
     .comGrid2Link a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4774,7 +4784,7 @@ footer {
 
     .comGridLinkCol2 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4817,7 +4827,7 @@ footer {
 
     .comGridLinkCol3 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;
@@ -4860,7 +4870,7 @@ footer {
 
     .comGridLinkCol4 a {
         margin: 0px auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Antonio", sans-serif;
         text-transform: uppercase;
         font-weight: bold;

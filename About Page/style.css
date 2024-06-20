@@ -247,7 +247,7 @@ ul {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: azure;
 }
 
 /* Styling the Hero Section */
@@ -1511,7 +1511,7 @@ footer {
         line-height: 40px;
         color: white;
         text-transform: uppercase;
-        padding-top: 250px;
+        padding-top: 150px;
         height: 100px;
     }
 

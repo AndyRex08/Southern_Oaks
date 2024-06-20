@@ -244,7 +244,7 @@ ul {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: azure;
 }
 
 
@@ -1732,7 +1732,7 @@ footer {
         line-height: 40px;
         color: white;
         text-transform: uppercase;
-        padding-top: 250px;
+        padding-top: 150px;
         height: 100px;
     }
 
@@ -1836,11 +1836,11 @@ footer {
     }
 
     .formHead i{
-    color: white;
-    font-size: 70px;
-    height: 90px;
-    text-align: center;
-    align-content: center;
+        color: white;
+        font-size: 70px;
+        height: 90px;
+        text-align: center;
+        align-content: center;
     }
     
     .form h5{
