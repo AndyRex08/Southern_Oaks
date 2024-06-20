@@ -1904,6 +1904,36 @@ footer {
         font-family: "Antonio", sans-serif;
     }
 
+    .contactBodyColumns {
+        height: 33vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 0vh;
+    }
+
+    .contactBodyColumns h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+
+    .contactBodyColumns .number {
+        margin-top: 10px;
+    }
+
+    .contactBodyColumnss {
+        height: 25vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 0vh;
+    }
+
+    .contactBodyColumnss h5{
+        font-family: "Antonio", sans-serif;
+        font-size: 18px;
+        color: orangered; 
+    }
+
     .numberrs {
         display: flex;
     }
@@ -1942,36 +1972,6 @@ footer {
         color: black;
         transition: color 0.2s ease-in-out 0.1s;
         transition: background-color 0.2s ease-in-out 0.1s;
-    }
-
-    .contactBodyColumns {
-        height: 32vh;
-        width: 100%;
-        text-align: center;
-        margin-top: 0vh;
-    }
-
-    .contactBodyColumns h5{
-        font-family: "Antonio", sans-serif;
-        font-size: 18px;
-        color: orangered; 
-    }
-
-    .contactBodyColumns .number {
-        margin-top: 10px;
-    }
-
-    .contactBodyColumnss {
-        height: 25vh;
-        width: 100%;
-        text-align: center;
-        margin-top: 0vh;
-    }
-
-    .contactBodyColumnss h5{
-        font-family: "Antonio", sans-serif;
-        font-size: 18px;
-        color: orangered; 
     }
 
     /* Designing the Footer Section */

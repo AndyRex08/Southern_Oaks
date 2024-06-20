@@ -2192,16 +2192,6 @@ footer {
     
     .catchPhrase {
         display: none;
-        color: orangered;
-        margin-left: 5vw;
-        margin-top: -20px;
-        text-transform: uppercase;
-    }
-    
-    .catchPhrase p{
-        font-family: "Antonio", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
     }
 
     .background {
