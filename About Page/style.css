@@ -876,7 +876,7 @@ img {
 
 .contactHeaderRow {
     height: 20vh;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 3%;
@@ -889,7 +889,7 @@ img {
     font-size: 43px;
     color: white;
     text-transform: uppercase;
-    width: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
