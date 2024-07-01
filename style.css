@@ -1913,6 +1913,7 @@ footer {
     .facebook {
         width: 6vw;
         height: 30px;
+        margin-top: 0px;
         margin-left: 57vw;
         align-items: center;
         align-content: center;
@@ -2004,7 +2005,7 @@ footer {
     .oSocials {
         align-content: center;
         display: flex;
-        margin-top: -2px;
+        margin-top: 0px;
         margin-left: 0px;
         width: 20vw;
         height: 40px;
