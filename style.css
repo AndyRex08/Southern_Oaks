@@ -1922,7 +1922,7 @@ footer {
     .facebookIcon {
         height: 22px;
         width: 21px;
-        margin-top: -3px;
+        margin-top: -5px;
         align-content: center;
         align-items: center;
         border: none;
@@ -1931,10 +1931,8 @@ footer {
     }
     
     .facebook a{
-        width: 22px;
-        height: 30px;
-        display: block;
-        align-items: center;
+        margin-left: 0px;
+        width: 40px;
     }
     
     .facebook i{
@@ -2005,7 +2003,7 @@ footer {
     .oSocials {
         align-content: center;
         display: flex;
-        margin-top: 0px;
+        margin-top: 3px;
         margin-left: 0px;
         width: 20vw;
         height: 40px;
