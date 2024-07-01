@@ -1922,7 +1922,7 @@ footer {
     .facebookIcon {
         height: 22px;
         width: 21px;
-        margin-top: -2px;
+        margin-top: 0px;
         align-content: center;
         align-items: center;
         border: none;
@@ -1968,7 +1968,7 @@ footer {
     .mailIcon {
         height: 22px;
         width: 22px;
-        margin-top: -2px;
+        margin-top: 0px;
         align-content: center;
         align-items: center;
         border: none;
