@@ -2017,7 +2017,7 @@ footer {
 
     .instagram {
         margin-left: 0px;
-        margin-top: 5px;
+        margin-top: 3px;
         height: 40px;
         width: 40px;
         align-content: center;
@@ -2025,7 +2025,7 @@ footer {
     
     .instagram i{
         font-size: 18px;
-        margin-top: 5px;
+        margin-top: 3px;
         align-content: center;
         color: white;
     }
@@ -2036,14 +2036,14 @@ footer {
     }
     
     .call {
-        margin-left: 0px;
-        margin-top: 5px;
+        margin-left: -0px;
+        margin-top: 3px;
         height: 40px;
         width: 40px; 
     }
     
     .call i{
-        margin-top: 5px;
+        margin-top: 3px;
         font-size: 18px;
         align-content: center;
         color: white;
